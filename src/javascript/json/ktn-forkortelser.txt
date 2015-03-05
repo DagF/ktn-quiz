@@ -1,0 +1,401 @@
+KTN - Hva står forkortelsene for?
+Q: MTU
+0: Mean Transformation Unit
+1: Maximum Transformation Unit
+2: Minimum Transformation Unit
+A: 1
+Q: ISP
+0: Internal Service Propagator
+1: Internet Survey Protocol
+2: Internet Service Provider
+A: 2
+Q: DSL
+0: Digital Subscriber Line
+1: Damn Small Linux
+2: Digital Service Line
+A: 0
+Q: TCP
+0: Transmission Carrier Protocol
+1: Transmisson Control Protocol
+2: Transmisson Control Point
+A: 1
+Q: IP
+0: Intellectual Property
+1: Institute of Property
+2: Internet Protocol
+A: 2
+Q: IETF
+0: Institute of Electronics Task Force
+1: Internet Engineering Task Force
+2: Internet Engineering Transmission Folder
+A: 1
+Q: RFCs
+0: Requests For Comments
+1: Requests for Carriers
+2: Routing File Comments
+A: 0
+Q: HTTP
+0: HyperTransfer Task Protocol
+1: HyperTransmission Text Protocol
+2: HyperText Transfer Protocol 
+A: 2
+Q: SMTP
+0: Simple Mail Transmission Protocol
+1: Sample Message Transfer Protocol
+2: Simple Mail Transfer Protocol
+A: 2
+Q: LAN
+0: Local Area Network
+1: Local Area News
+2: Local Airline Network
+A: 0
+Q: MAN
+0: Metropolitan Area Network
+1: Messaging Area Network
+2: Message Aviation Network
+A: 0
+Q: IEEE
+0: Institute of Electrical and Electronics Engineers
+1: International Electronics Engineers Error
+2: Interface For Extravagant Electronics Engingeers
+A: 0
+Q: VoIP
+0: Victory over IP
+1: Velocity over 
+2: Voice over IP
+A: 2
+Q: P2P
+0: Pie To Pie
+1: Peer - To - Peer
+2: People To People
+A: 1
+Q: API
+0: Application Programming Investment
+1: Application Protocol Interface
+2: Application Programming Interface
+A: 2
+Q: URL
+0: Uniform Resource Locator
+1: UnReal Life
+2: Unified Resource Level
+A: 0
+Q: PDA
+0: Personal Daemon Aggregator
+1: Personal Digital Assistant
+2: Private Digital Attorney
+A: 1
+Q: HFC
+0: Hybrid Fibre - Coaxial
+1: High-speed File Carrier
+2: High Fibre Content
+A: 0
+Q: bps
+0: bots per second
+1: bytes per second
+2: bits per second
+A: 2
+Q: 3G
+0: Third Generation
+1: Generated Gateway Giver
+2: Great Game Generation
+A: 0
+Q: EVDO
+0: Evolved Dormatory
+1: Evolution-Data Optimized
+2: Earth Velocity Distributed Orbit
+A: 1
+Q: HSDPA
+0: High-Speed Downlink Protocol Access
+1: High-Service Downlink Protocol Acceleration
+2: High-Speed Downlink Packet Access
+A: 2
+Q: OC
+0: Optimized Carrier
+1: Organized Carrier
+2: Optical Carrier
+A: 2
+Q: UTP
+0: Unshielded Twisted Pair
+1: Unified Twisted Protocol
+2: User Tested Point
+A: 0
+Q: LEO
+0: Land-Evolved Organization
+1: Low-Earth Orbiting
+2: Low-End Organization
+A: 1
+Q: FDM
+0: File-Deletion Message
+1: Frequency-Division Multiplexing
+2: File-Division Multiplexing
+A: 1
+Q: TDM
+0: Time-Division Multiplexing
+1: Timeout-Denial Message
+2: Title-Divided Message
+A: 0
+Q: POP
+0: Point Of Prescense
+1: Protocol Of Protocols
+2: Point Oriented Protocol
+A: 0
+Q: FTP
+0: File Transfer Point
+1: Float Transfer Port
+2: File Transfer Protocol
+A: 2
+Q: DNS
+0: Duplicate Name Server
+1: Domain Name Server
+2: Domain Name System
+A: 2
+Q: UDP
+0: Unified Datagram Protocol
+1: User Datalog Protocol
+2: User Datagram Protocol
+A: 2
+Q: PPP
+0: Point of Presence Protocol
+1: Perfect-Protocol Protocol
+2: Point-to-Point Protocol
+A: 2
+Q: ISO
+0: International Organization for Standardization
+1: Internet Standards for Operation
+2: International Standardization for Organization
+A: 0
+Q: OSI
+0: Open Systems Interconnection
+1: Open Systems Interface
+2: Open Service Interface
+A: 0
+Q: DDoS
+0: Distributed Denial-of-Service
+1: Defected Denial-of-Service
+2: Defence Distribution-of-Service
+A: 0
+Q: IMP
+0: Internet Multiplexer Prrotocol
+1: Interface Message Processor
+2: Interface Message Protocol
+A: 1
+Q: DARPA
+0: Defence Advanced Research Projects Agency
+1: Derpy Advanced Research Projects Agency
+2: Dreaded Advanced Research Projects Agency
+A: 0
+Q: NCP
+0: Network Compliance Point
+1: Network Control Protocol
+2: Network Counter Protocol
+A: 1
+Q: SSL
+0: Secure Service Layer
+1: Secure Sockets Layer
+2: Socket Security Layer
+A: 1
+Q: RTP
+0: Research Today Protocol
+1: Radio e Televisao de Portugal
+2: Real-time Transport Protocol
+A: 2
+Q: NAT
+0: Network Address Translator
+1: Network Address Table
+2: Network Address Transmission
+A: 0
+Q: RTT
+0: Russia Today Transmitter
+1: Road-Trip Tail
+2: Round-Trip Time
+A: 2
+Q: SSH
+0: Secure Shell Hybrid
+1: Secure Shell
+2: Secure Socket Hell
+A: 1
+Q: HTML
+0: HyperText Markup Line
+1: HyperText Markup Language
+2: HyperText Maker Language
+A: 1
+Q: ABR
+0: Available Byte-Rate
+1: Available Bit-Rate
+2: Adressable Bit-Rate
+A: 1
+Q: ARP
+0: Address Resolution Protocol
+1: Available Resolution Protocol
+2: Address Redundancy Protocol
+A: 0
+Q: ARQ
+0: Available Resolution reQuest
+1: Address Resolution reQuest
+2: Automatic Repeat reQuest
+A: 2
+Q: ATM
+0: Automatic Teller Machine
+1: Asynchronous Transfer Mode
+2: Asynchronous Transmission Mode
+A: 1
+Q: CDN
+0: Content Distribution Network
+1: Controlled Distribution Network
+2: Code Distribution Network
+A: 0
+Q: CDMA
+0: Code Division Maximum Access
+1: Code Division Minimum Access 
+2: Code Division Multiple Access
+A: 2
+Q: CIDR
+0: Classless Inter-Domain Routing
+1: Classless Inter-Domain Renting
+2: Controlled Inter-Domain Routing
+A: 0
+Q: CRC
+0: Cyclic Redundancy Control
+1: Cyclic Redundancy Check
+2: Configuration Redundancy Check
+A: 1
+Q: CSMA
+0: Carrier Sense Maximum Access
+1: Carrier Sense Minimum Access
+2: Carrier Sense Multiple Access
+A: 2
+Q: CSMA/CD
+0: CSMA Collision Detection
+1: CSMA Configuration Detection
+2: CSMA Control Detection
+A: 0
+Q: CSMA/CA
+0: CSMA Configuration Avoidance
+1: CSMA Collision Avoidance
+2: CSMA Control Area
+A: 1
+Q: CTS
+0: Clean Transmisson Submission
+1: Clear To Save
+2: Clear To Send
+A: 2
+Q: DHCP
+0: Domain Host Configuration Protocol
+1: Distributed Host Control Protocol
+2: Distributed Host Configuration Protocol
+A: 0
+Q: DHT
+0: Domain Hash Table
+1: Distributed Hash Table
+2: Divided Hash Table
+A: 1
+Q: DV
+0: Distance-Velocity
+1: Distance-Validation
+2: Distance-Vector
+A: 2
+Q: FDMA
+0: Frequency Division Multiple Access
+1: File-Division Multiplexing Access
+2: Frequency-Division Multiplexing Access
+A: 0
+Q: FEC
+0: Foreign Error Correction
+1: Forward Error Correction
+2: Forward Error Control
+A: 1
+Q: ICMP
+0: Internet Carrier Media Protocol
+1: Internet Control Multiplexing Protocol
+2: Internet Control Message Protocol
+A: 2
+Q: IMAP
+0: Internet Message Access Protocol
+1: Internet Mapping Protocol
+2: Internet Message Area Protocol
+A: 0
+Q: LS
+0: Link Slave
+1: Link State
+2: Link Slate
+A: 1
+Q: LTE
+0: Low Time Exposition
+1: Long Term Engineering
+2: Long Term Evolution
+A: 2
+Q: MAC
+0: Media Access Control
+1: Maximum Access Control
+2: Media Area Carrier
+A: 0
+Q: MPLS
+0: Minimum Protocol Label Switching
+1: Multiprotocol Label Switching
+2: Maximum Protocol Label Switching
+A: 1
+Q: MSS
+0: Minimum Segment Size
+1: Maximum Sending Size
+2: Maximum Segment Size
+A: 2
+Q: POP3
+0: Post Office Protocol 3
+1: Point Over Protovol 3
+2: Protocol On Protocol 3
+A: 0
+Q: RTS
+0: Round-Trip Send
+1: Request To Send
+2: Real-Time Send
+A: 1
+Q: GBN
+0: Glenbrook North
+1: Go-Back-N
+2: Go-Broke-N
+A: 1
+Q: RTSP
+0: Real-Time Sending Protocol
+1: Round-Trip Streaming Protocol
+2: Real-Time Streaming Protocol
+A: 2
+Q: SIP
+0: Session Initiation Protocol
+1: Station Improper Point
+2: Session Internet Protocol
+A: 0
+Q: TDMA
+0: Timeout-Denial Message Access
+1: Time Division Multiple Access
+2: Time-Division Multiplexing Access
+A: 1
+Q: TTL
+0: Time To Leave
+1: Time Transfered Live
+2: Time To Live
+A: 2
+Q: VLAN
+0: Virtual Local Airline Network
+1: Virutal Local Area News
+2: Virtual Local Area Network
+A: 2
+Q: WiFi
+0: WireFiles 
+1: Wireless Fidelity
+2: Wireless Files
+A: 1
+Q: WLAN
+0: Wireless Local Area Network
+1: Wireless Local Area News
+2: Wireless Local Airline Network
+A: 0
+Q: HR
+0: Hierarchial Routing
+1: Human Resources
+2: Hybrid Routing
+A: 0
+Q: UPnP
+0: Universal Plug and Play
+1: Unified Players not Playing
+2: Unified Protocols and Points
+A: 0
