@@ -1,2524 +1,2524 @@
 {
   "questions":[
     {
-      "question":"A client program requests and receives services from a server program. ",
+      "question":"A client program requests and receives services from a server program.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The application-layer message and the transport-layer header information together constitute the network-layer segment. ",
+      "question":"The application-layer message and the transport-layer header information together constitute the network-layer segment.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The total nodal delay is given by the sum of processing delay and propagation delay. ",
+      "question":"The total nodal delay is given by the sum of processing delay and propagation delay.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link. ",
+      "question":"Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Each router has a forwarding table that maps source addresses to outbound links. ",
+      "question":"Each router has a forwarding table that maps source addresses to outbound links.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Without DNS, it is impossible to communicate with servers where only the hostnames are known. ",
+      "question":"Without DNS, it is impossible to communicate with servers where only the hostnames are known.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"IP is a connectionless protocol. ",
+      "question":"IP is a connectionless protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Tier-2 ISPs are directly connected to all Tier-1 ISPs. ",
+      "question":"Tier-2 ISPs are directly connected to all Tier-1 ISPs.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Transport Layer and Network Layer are always executed together. ",
+      "question":"Transport Layer and Network Layer are always executed together.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"File distribution using P2P architecture. Upload rate: server is 10Mbps and each client 2 Mbps. Download rate: each client is 10Mbps. There are 100 clients and the file is 12,5Mbytes. The minimum distribution time is about 50 seconds. ",
+      "question":"File distribution using P2P architecture.Upload rate: server is 10Mbps and each client 2 Mbps.Download rate: each client is 10Mbps.There are 100 clients and the file is 12,5Mbytes.The minimum distribution time is about 50 seconds.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"P2P can be used for instant messaging. ",
+      "question":"P2P can be used for instant messaging.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A HTTP web server uses persistent connections. The server spawns a separate process for each client that connects to the server. Each of these processes will have different server port numbers. ",
+      "question":"A HTTP web server uses persistent connections.The server spawns a separate process for each client that connects to the server.Each of these processes will have different server port numbers.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When a user requests a Web page, only one TCP connection may be generated. ",
+      "question":"When a user requests a Web page, only one TCP connection may be generated.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"SMTP decides how a Web page is interpreted by a Web browser. ",
+      "question":"SMTP decides how a Web page is interpreted by a Web browser.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"FTP uses UDP as its underlying transport protocol. ",
+      "question":"FTP uses UDP as its underlying transport protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Web cashing can reduce the delay in receiving a requested object of a webpage. ",
+      "question":"Web cashing can reduce the delay in receiving a requested object of a webpage.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"SIP is used to transfer voice packets between two communicating peers. ",
+      "question":"SIP is used to transfer voice packets between two communicating peers.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In a POP3 transaction, the user agent issues commands, and the server responds to each command with a reply. ",
+      "question":"In a POP3 transaction, the user agent issues commands, and the server responds to each command with a reply.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A BitTorrent peer A may upload to a peer B even if B is not sending anything to A. ",
+      "question":"A BitTorrent peer A may upload to a peer B even if B is not sending anything to A.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Flow control is needed because a sender may have too much data to send. ",
+      "question":"Flow control is needed because a sender may have too much data to send.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"UDP is a connectionless transport protocol. ",
+      "question":"UDP is a connectionless transport protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"When TCP is used, the TCP port number of the receiver must be the same as the TCP port number of the sender. ",
+      "question":"When TCP is used, the TCP port number of the receiver must be the same as the TCP port number of the sender.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The throughput of a UDP connection is typically a function of the round-trip time between the sender and the receiver. ",
+      "question":"The throughput of a UDP connection is typically a function of the round-trip time between the sender and the receiver.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In Go-back-N, the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgement from the receiver. ",
+      "question":"In Go-back-N, the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgement from the receiver.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 100; the second has sequence number 200. Then, there are 200 bytes in the first segment. ",
+      "question":"Suppose Host A sends two TCP segments back to back to Host B over a TCP connection.The first segment has sequence number 100; the second has sequence number 200.Then, there are 200 bytes in the first segment.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A transport-layer protocol can provide reliable data transfer only when the underlying network layer also provides reliable service. ",
+      "question":"A transport-layer protocol can provide reliable data transfer only when the underlying network layer also provides reliable service.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"TCP uses different TCP protocol headers for connection set-up and close. ",
+      "question":"TCP uses different TCP protocol headers for connection set-up and close.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"For every write() to a TCP streamsocket, there must be a corresponding read() at the other end to receive the data. ",
+      "question":"For every write() to a TCP streamsocket, there must be a corresponding read() at the other end to receive the data.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"TCP provides a reliable, simplex service to the Network layer. ",
+      "question":"TCP provides a reliable, simplex service to the Network layer.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The IPv4 address space is much larger than the IPv6 address space. ",
+      "question":"The IPv4 address space is much larger than the IPv6 address space.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In a distance-vector routing algorithm, each router has a map of the entire network and determines the shortest path from itself to all other routers in the network. ",
+      "question":"In a distance-vector routing algorithm, each router has a map of the entire network and determines the shortest path from itself to all other routers in the network.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Routers typically only look at the network part and not the host part of the IP address. ",
+      "question":"Routers typically only look at the network part and not the host part of the IP address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts. ",
+      "question":"A subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"The IP address 192.32.158.3 in binary notation is 11000000 00100000 11011000 00000011 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Network address translation (NAT) is used in the Internet to translate between IP addresses found in separate sub-networks. ",
+      "question":"Network address translation (NAT) is used in the Internet to translate between IP addresses found in separate sub-networks.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"With DHCP, a host will be assigned an IP address that is same each time the host is connected to the network. ",
+      "question":"With DHCP, a host will be assigned an IP address that is same each time the host is connected to the network.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Scalability and administrative autonomy are the two important reasons for organizing the Internet as a hierarchy of networks. ",
+      "question":"Scalability and administrative autonomy are the two important reasons for organizing the Internet as a hierarchy of networks.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In a decentralized routing algorithm, the calculation of the least-cost path is carried out in an iterative, distributed manner. ",
+      "question":"In a decentralized routing algorithm, the calculation of the least-cost path is carried out in an iterative, distributed manner.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A datagram is a packet that is transferred independently of other packets. ",
+      "question":"A datagram is a packet that is transferred independently of other packets.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The maximum efficiency of slotted ALOHA is lower than the maximum efficiency of pure ALOHA. ",
+      "question":"The maximum efficiency of slotted ALOHA is lower than the maximum efficiency of pure ALOHA.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"For the Internet, it is the job of the Address Resolution Protocol (ARP) to translate between IP addresses and MAC addresses. ",
+      "question":"For the Internet, it is the job of the Address Resolution Protocol (ARP) to translate between IP addresses and MAC addresses.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Forward error correction (FEC) can decrease the number of sender retransmissions required. ",
+      "question":"Forward error correction (FEC) can decrease the number of sender retransmissions required.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The point-to-point protocol (PPP) is a link-layer protocol for point-to-point links, able to support multiple network-layer protocols. ",
+      "question":"The point-to-point protocol (PPP) is a link-layer protocol for point-to-point links, able to support multiple network-layer protocols.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Because a switch isolates one link from another, the different links in the LAN can operate at different speeds. ",
+      "question":"Because a switch isolates one link from another, the different links in the LAN can operate at different speeds.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"For a given signal-to-noise ratio (SNR), a modulation technique with a higher bit transmission rate will have a higher bit-error-rate (BER). ",
+      "question":"For a given signal-to-noise ratio (SNR), a modulation technique with a higher bit transmission rate will have a higher bit-error-rate (BER).",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"With CSMA/CD, when a collision is detected, the transmitting node stops its transmission and uses some protocol to determine when it should attempt to transmit the next time. ",
+      "question":"With CSMA/CD, when a collision is detected, the transmitting node stops its transmission and uses some protocol to determine when it should attempt to transmit the next time.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"An adapter’s MAC address does not change no matter where the adapter is installed. ",
+      "question":"An adapter’s MAC address does not change no matter where the adapter is installed.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Unlike IP addresses that have a hierarchical structure, an adapter’s MAC address has a flat structure. ",
+      "question":"Unlike IP addresses that have a hierarchical structure, an adapter’s MAC address has a flat structure.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"It is not a node (i.e., host or router) that has a link-layer address but instead it is a node’s adapter that has a link-layer address. ",
+      "question":"It is not a node (i.e., host or router) that has a link-layer address but instead it is a node’s adapter that has a link-layer address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A server program requests and receives services from a client program. ",
+      "question":"A server program requests and receives services from a client program.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Packet switching is always better than circuit switching. ",
+      "question":"Packet switching is always better than circuit switching.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The application-layer message and the transport-layer header information together constitute the transport-layer segment. ",
+      "question":"The application-layer message and the transport-layer header information together constitute the transport-layer segment.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The total nodal delay is given by the sum of the processing delay, transmission delay and propagation delay. ",
+      "question":"The total nodal delay is given by the sum of the processing delay, transmission delay and propagation delay.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link. ",
+      "question":"Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Each router has a forwarding table that maps destination addresses to outbound links. ",
+      "question":"Each router has a forwarding table that maps destination addresses to outbound links.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Tier-1 ISPs are directly connected to each of the other Tier-1 ISPs. ",
+      "question":"Tier-1 ISPs are directly connected to each of the other Tier-1 ISPs.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"IP is a connection-oriented protocol. ",
+      "question":"IP is a connection-oriented protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Internet DNS uses TCP. ",
+      "question":"Internet DNS uses TCP.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"FTP uses TCP as its underlying transport protocol. ",
+      "question":"FTP uses TCP as its underlying transport protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"HTTP decides how a Web page is interpreted by a Web browser. ",
+      "question":"HTTP decides how a Web page is interpreted by a Web browser.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When a user requests a Web page, many TCP connections may be generated. ",
+      "question":"When a user requests a Web page, many TCP connections may be generated.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"File distribution using client-server architecture. Upload rate: server is 10Mbps (us) and each client 1 Mbps (total N clients). Download rate: each client is 10Mbps ( d_i for i in range(1,N) ). There are 100 clients and the file is 12,5 Mbytes (F). The minimum distribution time is about 100 s. Hint: The Formula is D >= max(NF/us, F/min(d_i for i in range(1,N) ) ",
+      "question":"File distribution using client-server architecture.Upload rate: server is 10Mbps (us) and each client 1 Mbps (total N clients).Download rate: each client is 10Mbps ( d_i for i in range(1,N) ).There are 100 clients and the file is 12,5 Mbytes (F).The minimum distribution time is about 100 s.Hint: The Formula is D >= max(NF/us, F/min(d_i for i in range(1,N) ) ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In BitTorrent, suppose Alice provides chunks to Bob throughout a 15-second interval. Then, Bob should provide chunks to Alice in the same interval. ",
+      "question":"In BitTorrent, suppose Alice provides chunks to Bob throughout a 15-second interval.Then, Bob should provide chunks to Alice in the same interval.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"P2P cannot be used for instant messaging. ",
+      "question":"P2P cannot be used for instant messaging.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A host can have more than one DNS name. ",
+      "question":"A host can have more than one DNS name.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In a POP3 transaction, the user agent issues commands, and the server responds to each command with a reply. ",
+      "question":"In a POP3 transaction, the user agent issues commands, and the server responds to each command with a reply.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"SMTP is used to transfer mail from the sender’s mail server to the recipient’s mail server, and it is also used to transfer mail from the sender’s user agent to the sender’s mail server. ",
+      "question":"SMTP is used to transfer mail from the sender’s mail server to the recipient’s mail server, and it is also used to transfer mail from the sender’s user agent to the sender’s mail server.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A transport-layer protocol can provide reliable data transfer even if the underlying network layer is unreliable. ",
+      "question":"A transport-layer protocol can provide reliable data transfer even if the underlying network layer is unreliable.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 100; the second has sequence number 200. Then, there are 100 bytes in the first segment. ",
+      "question":"Suppose Host A sends two TCP segments back to back to Host B over a TCP connection.The first segment has sequence number 100; the second has sequence number 200.Then, there are 100 bytes in the first segment.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In Go-back-N, the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgement from the receiver. ",
+      "question":"In Go-back-N, the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgement from the receiver.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The throughput of a TCP connection is typically a function of its round-trip time. ",
+      "question":"The throughput of a TCP connection is typically a function of its round-trip time.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"When TCP is used, the TCP port number of the receiver must be different from the TCP port number of the sender. ",
+      "question":"When TCP is used, the TCP port number of the receiver must be different from the TCP port number of the sender.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Suppose Host A is sending a large file to Host B over a TCP connection. If the sequence number for a segment of this connection is n, then the sequence number for the subsequent segment will necessarily be n+1. ",
+      "question":"Suppose Host A is sending a large file to Host B over a TCP connection.If the sequence number for a segment of this connection is n, then the sequence number for the subsequent segment will necessarily be n+1.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Suppose Host A is sending a large file to Host B over a TCP connection. The number of unacknowledged bytes that A sends cannot exceed the size of the receive buffer at B. ",
+      "question":"Suppose Host A is sending a large file to Host B over a TCP connection.The number of unacknowledged bytes that A sends cannot exceed the size of the receive buffer at B.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Suppose a process in Host C has a UDP socket with port number 5678. If both Host A and Host B each send a UDP segment to Host C with destination port number 5678, then the process in Host C cannot know that these two segments are originated from two different hosts. ",
+      "question":"Suppose a process in Host C has a UDP socket with port number 5678.If both Host A and Host B each send a UDP segment to Host C with destination port number 5678, then the process in Host C cannot know that these two segments are originated from two different hosts.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"TCP uses end-to-end congestion control. ",
+      "question":"TCP uses end-to-end congestion control.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The IP address 192.32.216.9 in binary notation is 11000000 00100000 11011000 00001001 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The IP address 192.64.255.8 in binary notation is 11000000 01000000 11111111 00001000 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The IP address 192.64.233.8 in binary notation is 11000000 01000000 11110001 00001000 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"The IP address 8.8.8.8 in binary notation is 00000100 00001000 00001000 00001000 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"The IP address 192.168.10.103 in binary notation is 11000000 10100000 00001010 01100111 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A Class C IP subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts. ",
+      "question":"A Class C IP subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Virtual circuit is connection-oriented. ",
+      "question":"Virtual circuit is connection-oriented.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"With IP, the order of packets received may be different from the order of the same packets sent. ",
+      "question":"With IP, the order of packets received may be different from the order of the same packets sent.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Hosts and routers can use ICMP to communicate network-layer information to each other. ",
+      "question":"Hosts and routers can use ICMP to communicate network-layer information to each other.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The job of routing is to determine good routes from senders to receivers through the network. ",
+      "question":"The job of routing is to determine good routes from senders to receivers through the network.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The link-state (LS) routing algorithm is a decentralized routing algorithm. ",
+      "question":"The link-state (LS) routing algorithm is a decentralized routing algorithm.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"With DHCP, a host may be assigned an IP address that is different each time the host is connected to the network. ",
+      "question":"With DHCP, a host may be assigned an IP address that is different each time the host is connected to the network.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The IPv6 address space is much larger than the IPv4 address space. ",
+      "question":"The IPv6 address space is much larger than the IPv4 address space.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Two-dimensional parity checks can detect and correct a single bit error. ",
+      "question":"Two-dimensional parity checks can detect and correct a single bit error.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"CRC (Cyclic Redundancy Check) detects all errors. ",
+      "question":"CRC (Cyclic Redundancy Check) detects all errors.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Switched Ethernet uses mulitcast link. ",
+      "question":"Switched Ethernet uses mulitcast link.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"The maximum efficiency of slotted ALOHA is higher than the maximum efficiency of pure ALOHA ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Each adapter connected to a LAN has a unique MAC address. ",
+      "question":"Each adapter connected to a LAN has a unique MAC address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Like IP addresses, MAC addresses are also hierarchical. ",
+      "question":"Like IP addresses, MAC addresses are also hierarchical.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"ARP (address resolution protocol) maps between IP and MAC addresses on different LANs. ",
+      "question":"ARP (address resolution protocol) maps between IP and MAC addresses on different LANs.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"With CSMA/CD, when a collision is detected, the transmitting node stops its transmission and uses some protocol to determine when it should attempt to transmit the next time. ",
+      "question":"With CSMA/CD, when a collision is detected, the transmitting node stops its transmission and uses some protocol to determine when it should attempt to transmit the next time.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In a CDMA protocol, each bit being sent is encoded by multiplying the bit by a signal (the code) that changes at a much faster rate than the original sequence of data bits. ",
+      "question":"In a CDMA protocol, each bit being sent is encoded by multiplying the bit by a signal (the code) that changes at a much faster rate than the original sequence of data bits.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"If all links in the Internet were to provide reliable delivery service, the TCP reliable delivery service would be redundant and hence not needed. ",
+      "question":"If all links in the Internet were to provide reliable delivery service, the TCP reliable delivery service would be redundant and hence not needed.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Without a DNS server, it is not possible to contact web servers. ",
+      "question":"Without a DNS server, it is not possible to contact web servers.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"You have to use a browser ala Opera, Firefox or Internet explorer to retrieve an object from a web server. ",
+      "question":"You have to use a browser ala Opera, Firefox or Internet explorer to retrieve an object from a web server.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Forward error correction is a way to recover from packet loss. ",
+      "question":"Forward error correction is a way to recover from packet loss.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The two parameters that must be specified in order to instantiate a Java (or Python) “socket” are destination host name/address and destination port number. ",
+      "question":"The two parameters that must be specified in order to instantiate a Java (or Python) “socket” are destination host name/address and destination port number.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Client side delayed playout is data buffering to compensate for network-added jitter. ",
+      "question":"Client side delayed playout is data buffering to compensate for network-added jitter.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The network and the link layer are always executed together. ",
+      "question":"The network and the link layer are always executed together.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Within the same broadcast network, it is the IP network part of the destination address that identifies the receiver. ",
+      "question":"Within the same broadcast network, it is the IP network part of the destination address that identifies the receiver.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"DHCP can be used to assign default gatway and DNS server address. ",
+      "question":"DHCP can be used to assign default gatway and DNS server address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"ARP is used to find the next hop when forwarding packets. ",
+      "question":"ARP is used to find the next hop when forwarding packets.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"If an organisation has licenced the network address space designated by 128.39.16.0/20, an IP packet addressed to 128.39.7.10 will not be sent to this organisation. ",
+      "question":"If an organisation has licenced the network address space designated by 128.39.16.0/20, an IP packet addressed to 128.39.7.10 will not be sent to this organisation.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"All internet application protocols are text based. ",
+      "question":"All internet application protocols are text based.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"It is possible for a client to send e-mail over HTTP rather than SMTP. ",
+      "question":"It is possible for a client to send e-mail over HTTP rather than SMTP.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"P2P file distribution. Upload rate server is 10Mbps and peers 1 Mbps. Download rate peers is 10Mbps. There are 100 peers and the file is 12,5 Mbytes. The minimum distribution time is about 100 s. ",
+      "question":"P2P file distribution.Upload rate server is 10Mbps and peers 1 Mbps.Download rate peers is 10Mbps.There are 100 peers and the file is 12,5 Mbytes.The minimum distribution time is about 100 s.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A BitTorrent peer A must upload to a peer B if B is sending anything to A. ",
+      "question":"A BitTorrent peer A must upload to a peer B if B is sending anything to A.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The DNS architecture is centralized around root servers. ",
+      "question":"The DNS architecture is centralized around root servers.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"There are distributed applications that use neither TCP nor UDP. ",
+      "question":"There are distributed applications that use neither TCP nor UDP.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A browser will generate header lines dependent on browser type and version. ",
+      "question":"A browser will generate header lines dependent on browser type and version.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The value of a DNS resource record of Type = MX is the hostname of the mail server. ",
+      "question":"The value of a DNS resource record of Type = MX is the hostname of the mail server.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"It is primarily the characteristics of the applications that determine the complexity of a reliable data transfer protocol. ",
+      "question":"It is primarily the characteristics of the applications that determine the complexity of a reliable data transfer protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When a TCP host receives data from the network layer, it can identifiy the appropriate process to pass the data to by using the source port, source IP address and destination port. ",
+      "question":"When a TCP host receives data from the network layer, it can identifiy the appropriate process to pass the data to by using the source port, source IP address and destination port.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A web server using non-persistent connections runs slow-start for each message larger than MSS (maximum segment size). ",
+      "question":"A web server using non-persistent connections runs slow-start for each message larger than MSS (maximum segment size).",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A TCP transport layer sender window may contain both acknowledged and unacknowledge data. ",
+      "question":"A TCP transport layer sender window may contain both acknowledged and unacknowledge data.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"When two hosts employ a half-duplex technology, the communication is bidirectional, but only one host may send data at the time. ",
+      "question":"When two hosts employ a half-duplex technology, the communication is bidirectional, but only one host may send data at the time.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"TCP provides a reliable, simplex service to the application layer. ",
+      "question":"TCP provides a reliable, simplex service to the application layer.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"For every write() to a TCP streamsocket, there must be a corresponding read() at the other end to receive the data. ",
+      "question":"For every write() to a TCP streamsocket, there must be a corresponding read() at the other end to receive the data.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The maximum data rate between two hosts communicating using TCP depends solely on the bandwidth of the underlying internetwork. ",
+      "question":"The maximum data rate between two hosts communicating using TCP depends solely on the bandwidth of the underlying internetwork.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The original TCP (without extensions) is best characterized as a pipelined, go-back-N protocol. ",
+      "question":"The original TCP (without extensions) is best characterized as a pipelined, go-back-N protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The size of the largest segment a TCP sender will transmit, is limited by the lower layers. ",
+      "question":"The size of the largest segment a TCP sender will transmit, is limited by the lower layers.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"TCP has spesific protocol headers for connection set-up and close. ",
+      "question":"TCP has spesific protocol headers for connection set-up and close.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In theory, packet switching can support more users than circuit switching. ",
+      "question":"In theory, packet switching can support more users than circuit switching.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A datagram is a packet that is transferred independently of all other packets. ",
+      "question":"A datagram is a packet that is transferred independently of all other packets.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The primary purpose of a router ́s main processor is to run management and routing software. ",
+      "question":"The primary purpose of a router ́s main processor is to run management and routing software.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Two primary functions of a router ́s output adapter are link layer processing and network layer encapsulation. ",
+      "question":"Two primary functions of a router ́s output adapter are link layer processing and network layer encapsulation.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"All routers only look at the network part and not the host part of the IP address. ",
+      "question":"All routers only look at the network part and not the host part of the IP address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In a link state (LS) routing algorithm, each node has a map of the entire network and determines the shortest path from itself to all other nodes in the network. ",
+      "question":"In a link state (LS) routing algorithm, each node has a map of the entire network and determines the shortest path from itself to all other nodes in the network.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The distance vector routing algorithm is based on information received only from neighbours. ",
+      "question":"The distance vector routing algorithm is based on information received only from neighbours.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The Internet is administratively autonomous and scalable even without the organization as a hiarchy of networks for the sake of routing. ",
+      "question":"The Internet is administratively autonomous and scalable even without the organization as a hiarchy of networks for the sake of routing.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The host component of a CIDR address of the form a.b.c.d/23 can contain addresses for appr. 500 hosts. ",
+      "question":"The host component of a CIDR address of the form a.b.c.d/23 can contain addresses for appr.500 hosts.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Network address translation (NAT) is used in the Internet to translate between IP addresses found in separate sub-networks. ",
+      "question":"Network address translation (NAT) is used in the Internet to translate between IP addresses found in separate sub-networks.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A node’s LAN address used by the link layer is simply another form of the node’s IP address. ",
+      "question":"A node’s LAN address used by the link layer is simply another form of the node’s IP address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A CSMA/CD node constructs a frame, senses the channel idle, and transmits the frame. The node then knows for sure that the frame will arrive at the receiver within the same subnet. ",
+      "question":"A CSMA/CD node constructs a frame, senses the channel idle, and transmits the frame.The node then knows for sure that the frame will arrive at the receiver within the same subnet.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In a switch-based ethernet LAN there are no collision domains. ",
+      "question":"In a switch-based ethernet LAN there are no collision domains.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Detecting collisions in a wireless LAN is not always possible due to collision avoidance. ",
+      "question":"Detecting collisions in a wireless LAN is not always possible due to collision avoidance.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Wireless 802.11 protocol header includes MAC addresses to both the access point and the first-hop router. ",
+      "question":"Wireless 802.11 protocol header includes MAC addresses to both the access point and the first-hop router.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"For a given wireless modulation scheme, the higher the SNR (signal to noise ratio) the lower the BER (bit error rate). ",
+      "question":"For a given wireless modulation scheme, the higher the SNR (signal to noise ratio) the lower the BER (bit error rate).",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In CDMA, the coded signal has a higher bandwidth than the original data being communicated. ",
+      "question":"In CDMA, the coded signal has a higher bandwidth than the original data being communicated.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The entries in a switch table need to be configured by the network administrator. ",
+      "question":"The entries in a switch table need to be configured by the network administrator.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Considering the expression D * 2 ^ r XOR R as the mathematical representation of data with CRC bits appended, the CRC bit pattern represented by R is determined using modulo 2 arithmetic, wherein R is the remainder when a generator value, G, is divided into D * 2 ^ r . ",
+      "question":"Considering the expression D * 2 ^ r XOR R as the mathematical representation of data with CRC bits appended, the CRC bit pattern represented by R is determined using modulo 2 arithmetic, wherein R is the remainder when a generator value, G, is divided into D * 2 ^ r .",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In a CAT-5 UTP ethernet installation all nodes are exactly 100 meters from the hub. The time it takes for a bit to propagate from hub to node for a 10BaseT ethernet is ten times longer than for a 100BaseT ethernet. ",
+      "question":"In a CAT-5 UTP ethernet installation all nodes are exactly 100 meters from the hub.The time it takes for a bit to propagate from hub to node for a 10BaseT ethernet is ten times longer than for a 100BaseT ethernet.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"An application offering a connection-oriented service must use a connection-oriented protocol. ",
+      "question":"An application offering a connection-oriented service must use a connection-oriented protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"When a data packet moves from the upper layer to the lower layers, headers are added. ",
+      "question":"When a data packet moves from the upper layer to the lower layers, headers are added.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"With non-persistent connections between browser and origin server, it is possible for a single TCP segment to carry two distinct HTTP request messages. ",
+      "question":"With non-persistent connections between browser and origin server, it is possible for a single TCP segment to carry two distinct HTTP request messages.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"For a P2P file-sharing application, there is no notion of client and server sides of a communication session. ",
+      "question":"For a P2P file-sharing application, there is no notion of client and server sides of a communication session.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A machine with a single DNS name can have multiple IP addresses. ",
+      "question":"A machine with a single DNS name can have multiple IP addresses.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"Email does not use DNS ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"POP3 servers do not carry state information across POP3 sessions. ",
+      "question":"POP3 servers do not carry state information across POP3 sessions.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Only SMTP can be used between a user mail agent and an Internet mail server. ",
+      "question":"Only SMTP can be used between a user mail agent and an Internet mail server.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A user requests a Web page that consists of some text and two images. For this page, the client will send one request message and receive three response messages. ",
+      "question":"A user requests a Web page that consists of some text and two images.For this page, the client will send one request message and receive three response messages.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Two distinct Web pages (for example, www.item.ntnu.no/index.html and www.idi.ntnu.no/index.html) can be sent over the same persistent connection. ",
+      "question":"Two distinct Web pages (for example, www.item.ntnu.no/index.html and www.idi.ntnu.no/index.html) can be sent over the same persistent connection.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Transport layer protocol data units are processed by both routers and end hosts. ",
+      "question":"Transport layer protocol data units are processed by both routers and end hosts.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"All transport layer protocols must perform flow control. ",
+      "question":"All transport layer protocols must perform flow control.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In a Go-Back-N protocol, the sender is in general not allowed to transmit multiple packets without waiting for an acknowledgment. ",
+      "question":"In a Go-Back-N protocol, the sender is in general not allowed to transmit multiple packets without waiting for an acknowledgment.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"TCP provides message stream transport service. ",
+      "question":"TCP provides message stream transport service.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When UDP is used, the UDP port number at the receiver side must be the same as the sender side. ",
+      "question":"When UDP is used, the UDP port number at the receiver side must be the same as the sender side.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"UDP provides an unreliable service, but is yet often used for video conferencing and streaming of media. ",
+      "question":"UDP provides an unreliable service, but is yet often used for video conferencing and streaming of media.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"If Host A sends two TCP segments back to back to Host B over a TCP connection, the first segment has sequence number 90; the second has sequence number 110. Then, there are 20 bytes is in the first segment. ",
+      "question":"If Host A sends two TCP segments back to back to Host B over a TCP connection, the first segment has sequence number 90; the second has sequence number 110.Then, there are 20 bytes is in the first segment.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Suppose Host A sends one segment with sequence number 38 and 4 bytes of data over a TCP connection to Host B. In this same segment the acknowledgment number is necessarily 42. ",
+      "question":"Suppose Host A sends one segment with sequence number 38 and 4 bytes of data over a TCP connection to Host B.In this same segment the acknowledgment number is necessarily 42.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Suppose Host A sends a segment with sequence number 32 and 4 bytes of data over a TCP - Go-Back-N connection to Host B. In this same segment the acknowledgment number is not 36 if the segment with sequence number 28 was lost on its way to B. ",
+      "question":"Suppose Host A sends a segment with sequence number 32 and 4 bytes of data over a TCP - Go-Back-N connection to Host B.In this same segment the acknowledgment number is not 36 if the segment with sequence number 28 was lost on its way to B.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Suppose a process in Host C has a UDP socket with port number 6789. Suppose both Host A and Host B each send a UDP segment to Host C with destination port number 6789. Then, both of these segments will be directed to the same socket at Host C. ",
+      "question":"Suppose a process in Host C has a UDP socket with port number 6789.Suppose both Host A and Host B each send a UDP segment to Host C with destination port number 6789.Then, both of these segments will be directed to the same socket at Host C.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The Network Layer is responsible for providing reliable end-to-end transmission. ",
+      "question":"The Network Layer is responsible for providing reliable end-to-end transmission.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The service provided by the Internet Network Layer is connectionless. ",
+      "question":"The service provided by the Internet Network Layer is connectionless.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The 32-bit binary equivalent of the IP address 223.1.3.27 is 11011111 00000001 00000011 00011011 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"IP guarantees that the packets will arrive in the right sequence. ",
+      "question":"IP guarantees that the packets will arrive in the right sequence.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The forwarding process of a router is responsible for transferring a packet from an incoming link to an outgoing link. ",
+      "question":"The forwarding process of a router is responsible for transferring a packet from an incoming link to an outgoing link.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In a packet-switched network, routers must remember what connection each packet belongs to. ",
+      "question":"In a packet-switched network, routers must remember what connection each packet belongs to.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Each interface of a router in the Internet should have one IP address. ",
+      "question":"Each interface of a router in the Internet should have one IP address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In the Internet, a node may receive multiple copies of the same packet. ",
+      "question":"In the Internet, a node may receive multiple copies of the same packet.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"NAT (Network Address Translation) is used to translate hostnames into IP addresses. ",
+      "question":"NAT (Network Address Translation) is used to translate hostnames into IP addresses.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Link layer also needs to provide flow control. ",
+      "question":"Link layer also needs to provide flow control.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Error control based on even parity means that a parity bit is added so that the number of ‘1’s is even. ",
+      "question":"Error control based on even parity means that a parity bit is added so that the number of ‘1’s is even.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In CRC (Cyclic Redundancy Check), the generator polynomials used by the sender and the receiver need not be the same. ",
+      "question":"In CRC (Cyclic Redundancy Check), the generator polynomials used by the sender and the receiver need not be the same.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Dividing the binary value 10011100 by 1001 using modulo-2 without carries gives a remainder of 101. ",
+      "question":"Dividing the binary value 10011100 by 1001 using modulo-2 without carries gives a remainder of 101.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Bridges use IP addresses to route frames to their destinations. ",
+      "question":"Bridges use IP addresses to route frames to their destinations.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Hubs use the frame destination address to route frames to their destination. ",
+      "question":"Hubs use the frame destination address to route frames to their destination.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The slotted ALOHA protocol is more efficient than the pure ALOHA. ",
+      "question":"The slotted ALOHA protocol is more efficient than the pure ALOHA.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Ethernet provides connectionless service to the network layer. ",
+      "question":"Ethernet provides connectionless service to the network layer.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Ethernet and 802.11 use the same frame structure. ",
+      "question":"Ethernet and 802.11 use the same frame structure.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Hosts associated with a base station are often referred to as operating in infrastructure mode, where traditional network services, such as address assignment and routing, are provided by the network to which a host is connected via the base station. ",
+      "question":"Hosts associated with a base station are often referred to as operating in infrastructure mode, where traditional network services, such as address assignment and routing, are provided by the network to which a host is connected via the base station.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Before an 802.11 station transmits a data frame, it must first send an RTS (Request to Send) frame and receive a corresponding CTS (Clear to Send) frame. ",
+      "question":"Before an 802.11 station transmits a data frame, it must first send an RTS (Request to Send) frame and receive a corresponding CTS (Clear to Send) frame.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"It is possible for a CDN (Content Distribution Network) to provide worse performance to a host requesting a multimedia object than if the host has requested the object directly from the distant origin server. ",
+      "question":"It is possible for a CDN (Content Distribution Network) to provide worse performance to a host requesting a multimedia object than if the host has requested the object directly from the distant origin server.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Circuit switching gives higher variation in the end-to-end transfer time than packet switching. ",
+      "question":"Circuit switching gives higher variation in the end-to-end transfer time than packet switching.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In a packet switching network, assume that all packets have the same length and the queuing delay is ignored. Then, for the connection-oriented service, the connection setup time is always longer than the propagation time of a packet from the sender to the receiver. ",
+      "question":"In a packet switching network, assume that all packets have the same length and the queuing delay is ignored.Then, for the connection-oriented service, the connection setup time is always longer than the propagation time of a packet from the sender to the receiver.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In order to maintain registration, SIP (Session Initiation Protocol) clients must periodically send REGISTER messages. ",
+      "question":"In order to maintain registration, SIP (Session Initiation Protocol) clients must periodically send REGISTER messages.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"If stored video is streamed directly from a Web server to a media player, the application is using TCP as the underlying transport protocol. ",
+      "question":"If stored video is streamed directly from a Web server to a media player, the application is using TCP as the underlying transport protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"FTP runs on top of UDP. ",
+      "question":"FTP runs on top of UDP.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"RTSP (Real-Time Streaming Protocol) does not restrict how streamed media is transported. ",
+      "question":"RTSP (Real-Time Streaming Protocol) does not restrict how streamed media is transported.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Packet switching employs statistical multiplexing. ",
+      "question":"Packet switching employs statistical multiplexing.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"A circuit switched network may employ Time Divided Multiplexing (assigning time frames) or Frequency Divided Multiplexing (assigning frequency levels on the link) ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A server program receives requests from and delivers services to a client program. ",
+      "question":"A server program receives requests from and delivers services to a client program.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Each user on an Ethernet LAN can continuously transmit at the transmission rate of the Ethernet LAN. ",
+      "question":"Each user on an Ethernet LAN can continuously transmit at the transmission rate of the Ethernet LAN.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A router only processes the Network layer in the Internet protocol stack. ",
+      "question":"A router only processes the Network layer in the Internet protocol stack.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When a wireless network is operating in infrastructure mode, its hosts are normally associated with a base station. ",
+      "question":"When a wireless network is operating in infrastructure mode, its hosts are normally associated with a base station.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Before an 802.11 station transmits a data frame, it must first send an RTS (Request-to-Send) frame and receive a corresponding CTS (Clear-to-Send) frame. ",
+      "question":"Before an 802.11 station transmits a data frame, it must first send an RTS (Request-to-Send) frame and receive a corresponding CTS (Clear-to-Send) frame.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"TCP is always the preferred transport layer for live streaming media. ",
+      "question":"TCP is always the preferred transport layer for live streaming media.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The TCP implements services such as congestion control to minimize erronious data transport . ",
+      "question":"The TCP implements services such as congestion control to minimize erronious data transport .",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Connection-oriented service is always reliable. ",
+      "question":"Connection-oriented service is always reliable.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"HTTP runs on top of TCP. ",
+      "question":"HTTP runs on top of TCP.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"SMTP runs on top of UDP. ",
+      "question":"SMTP runs on top of UDP.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"FTP sends control information out-of-band. ",
+      "question":"FTP sends control information out-of-band.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"When an application protocol sends control data on the same connection as the main data, the control data is regulated in band. ",
+      "question":"When an application protocol sends control data on the same connection as the main data, the control data is regulated in band.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"SMTP sends control data out-of-band. ",
+      "question":"SMTP sends control data out-of-band.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"DNS (Domain Name System) is used to map hostnames to IP addresses. ",
+      "question":"DNS (Domain Name System) is used to map hostnames to IP addresses.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"DNS uses a distributed database implemented in a hierarchy of DNS servers. ",
+      "question":"DNS uses a distributed database implemented in a hierarchy of DNS servers.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Web caching cannot reduce the delay in receiving a requested object. ",
+      "question":"Web caching cannot reduce the delay in receiving a requested object.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"SMTP is used between mail servers in the Internet. ",
+      "question":"SMTP is used between mail servers in the Internet.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"To establish a TCP connection, the initial sequence numbers of both the sender and the receiver must be the same. ",
+      "question":"To establish a TCP connection, the initial sequence numbers of both the sender and the receiver must be the same.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The sender is sending a large file to the receiver over a TCP connection. Assume the receiver has no data to send to the sender. Then, the receiver will not send acknowledgements to the sender because the receiver cannot piggyback the acknowledgements on data. ",
+      "question":"The sender is sending a large file to the receiver over a TCP connection.Assume the receiver has no data to send to the sender.Then, the receiver will not send acknowledgements to the sender because the receiver cannot piggyback the acknowledgements on data.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The sender is sending a large file to the receiver over a TCP connection. The number of unacknowledged bytes that the sender sends cannot exceed the size of the receiver buffer. ",
+      "question":"The sender is sending a large file to the receiver over a TCP connection.The number of unacknowledged bytes that the sender sends cannot exceed the size of the receiver buffer.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"With the Selective-Repeat protocol, it is possible for the sender to receive an ACK for a packet that falls outside of its current window. ",
+      "question":"With the Selective-Repeat protocol, it is possible for the sender to receive an ACK for a packet that falls outside of its current window.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"With the Go-Back-N protocol, it is possible for the sender to receive an ACK for a packet that falls outside of its current window. ",
+      "question":"With the Go-Back-N protocol, it is possible for the sender to receive an ACK for a packet that falls outside of its current window.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"TCP is a reliable protocol. ",
+      "question":"TCP is a reliable protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The Network Layer is responsible to provide reliable end-to-end transmission. ",
+      "question":"The Network Layer is responsible to provide reliable end-to-end transmission.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The network layer can only be connectionless. ",
+      "question":"The network layer can only be connectionless.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The forwarding process of a router is responsible for transferring a packet from an incoming link to an outgoing link. ",
+      "question":"The forwarding process of a router is responsible for transferring a packet from an incoming link to an outgoing link.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"While forwarding is within a single router, routing involves all routers in a network ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A virtual circuit is more robust concerning network errors because it knows the destination of the packets. ",
+      "question":"A virtual circuit is more robust concerning network errors because it knows the destination of the packets.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In the Internet, a node may receive multiple copies of the same packet. ",
+      "question":"In the Internet, a node may receive multiple copies of the same packet.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Each router only has one IP address. ",
+      "question":"Each router only has one IP address.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Suppose a parity bit is used to detect single bit errors in a bit-string of 7 bits. If even parity is used and the controlled bit-string has the value 1110101, then the value of the parity bit is 1. ",
+      "question":"Suppose a parity bit is used to detect single bit errors in a bit-string of 7 bits.If even parity is used and the controlled bit-string has the value 1110101, then the value of the parity bit is 1.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Dividing the binary value 10011100 by 1001 gives a remainder of 100. ",
+      "question":"Dividing the binary value 10011100 by 1001 gives a remainder of 100.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"With half-duplex, a node cannot transmit and receive at the same time. ",
+      "question":"With half-duplex, a node cannot transmit and receive at the same time.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Ethernet only provides connectionless service to the network layer. ",
+      "question":"Ethernet only provides connectionless service to the network layer.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Ethernet only provides unreliable service to the network layer. ",
+      "question":"Ethernet only provides unreliable service to the network layer.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"If a node has a wireless connection to the Internet, it has to be mobile. ",
+      "question":"If a node has a wireless connection to the Internet, it has to be mobile.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A signal coming out of a low-pass filter of bandwidth H can be completely reconstructed by sampling at the rate of 2H. (aka the Nyquist-effect) ",
+      "question":"A signal coming out of a low-pass filter of bandwidth H can be completely reconstructed by sampling at the rate of 2H.(aka the Nyquist-effect) ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Frequency modulation, amplitude modulation and phase modulation can be used together. ",
+      "question":"Frequency modulation, amplitude modulation and phase modulation can be used together.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"There is no limit on the maximum data rate that can be achieved by an ideal channel with no error. ",
+      "question":"There is no limit on the maximum data rate that can be achieved by an ideal channel with no error.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Consider the maximum data rate that can be achieved by a noisy channel. The rate calculated from the Shannon theorem is always smaller than the rate calculated from the Nyquist theorem. ",
+      "question":"Consider the maximum data rate that can be achieved by a noisy channel.The rate calculated from the Shannon theorem is always smaller than the rate calculated from the Nyquist theorem.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A binary signal with period T cannot be represented by a Fourier series with limited frequency elements. ",
+      "question":"A binary signal with period T cannot be represented by a Fourier series with limited frequency elements.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"It is impossible for a CDN (Content Distribution Network) to provide worse performance to a host requesting a multimedia object than if the host has requested the object directly from the distant origin server. ",
+      "question":"It is impossible for a CDN (Content Distribution Network) to provide worse performance to a host requesting a multimedia object than if the host has requested the object directly from the distant origin server.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"With mobile IP, mobility does not affect end-to-end delays between the source and destination. ",
+      "question":"With mobile IP, mobility does not affect end-to-end delays between the source and destination.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Bit-stuffing in the link layer is required to support framing synchronisation in bit-oriented protocols. ",
+      "question":"Bit-stuffing in the link layer is required to support framing synchronisation in bit-oriented protocols.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Bit-stuffing is a mechanism used to avoid that a sequence of data bits equal to a flag pattern used to delimit frames is interpreted as the frame delimiter. ",
+      "question":"Bit-stuffing is a mechanism used to avoid that a sequence of data bits equal to a flag pattern used to delimit frames is interpreted as the frame delimiter.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Generator polynomials are used to generate checksums (CRC – Cyclic Redundancy Check) that are used to detect bit errors. The generator polynomials G(x) used by the sender and the receiver does not need tobe the same. ",
+      "question":"Generator polynomials are used to generate checksums (CRC – Cyclic Redundancy Check) that are used to detect bit errors.The generator polynomials G(x) used by the sender and the receiver does not need tobe the same.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A generator polynomial G(x) of degree 16 consists of 16 bits. ",
+      "question":"A generator polynomial G(x) of degree 16 consists of 16 bits.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The High-level Data Link Control (HDLC) protocol is a byte-oriented protocol. ",
+      "question":"The High-level Data Link Control (HDLC) protocol is a byte-oriented protocol.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The Point-to-Point Protocol (PPP) supports mechanisms to support different network protocols. ",
+      "question":"The Point-to-Point Protocol (PPP) supports mechanisms to support different network protocols.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Error correcting codes are seldom used in wireless networks. ",
+      "question":"Error correcting codes are seldom used in wireless networks.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Suppose that a parity bit is used to detect single bit errors in a bitstring of 7 bits. If odd parity is used and the controlled bit-string has the value 0100101, the value of the parity bit is set to 0, i.e. final bitstring with parity bit = 01001010. ",
+      "question":"Suppose that a parity bit is used to detect single bit errors in a bitstring of 7 bits.If odd parity is used and the controlled bit-string has the value 0100101, the value of the parity bit is set to 0, i.e.final bitstring with parity bit = 01001010.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The concept ‘carrier sense’ of CSMA/CD can normally be interpreted as the ability of a station to check if the channel is busy before trying to use it. ",
+      "question":"The concept ‘carrier sense’ of CSMA/CD can normally be interpreted as the ability of a station to check if the channel is busy before trying to use it.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The maximum theoretical throughput of Pure ALOHA is larger than maximum throughput of Slotted ALOHA. ",
+      "question":"The maximum theoretical throughput of Pure ALOHA is larger than maximum throughput of Slotted ALOHA.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"p-persistent CSMA: when a station becomes ready to send, it senses the channel, and if it is idle the station transmits with probability p. ",
+      "question":"p-persistent CSMA: when a station becomes ready to send, it senses the channel, and if it is idle the station transmits with probability p.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"CSMA/CD systems can be in one of five states: contention, waiting, transmission, idle, retransmission. ",
+      "question":"CSMA/CD systems can be in one of five states: contention, waiting, transmission, idle, retransmission.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"If collision occurs when using wireless CSMA/CA, retransmission is carried out after a random time. ",
+      "question":"If collision occurs when using wireless CSMA/CA, retransmission is carried out after a random time.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The 802.11 wireless LAN never uses central control. ",
+      "question":"The 802.11 wireless LAN never uses central control.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The Multiple Access with Collision Avoidance (MACAW) protocol for wireless LANs uses acknowledgement frames (ACK). ",
+      "question":"The Multiple Access with Collision Avoidance (MACAW) protocol for wireless LANs uses acknowledgement frames (ACK).",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The Network Allocation Vector (NAV) is used to reserve a physical channel in wireless LANs. ",
+      "question":"The Network Allocation Vector (NAV) is used to reserve a physical channel in wireless LANs.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The 802.11 wireless LAN service ‘Distribution’, handles the translation from 802.11 format to a non-802.11 format. ",
+      "question":"The 802.11 wireless LAN service ‘Distribution’, handles the translation from 802.11 format to a non-802.11 format.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The 802.16 Metropolitan Area Network standard supports dynamic allocation of time slots for the upstream and downstream traffic. ",
+      "question":"The 802.16 Metropolitan Area Network standard supports dynamic allocation of time slots for the upstream and downstream traffic.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A switch cannot be used on the data link layer. ",
+      "question":"A switch cannot be used on the data link layer.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Transparent bridges use the backward learning algorithm. ",
+      "question":"Transparent bridges use the backward learning algorithm.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The routing procedure for the transparent bridge goes as follows: 1. If destination and source LANs are the same, forward the frame. 2. If the destination and source LANs are different, discard the frame. 3. If the destination LAN is unknown, use flooding. ",
+      "question":"The routing procedure for the transparent bridge goes as follows: 1.If destination and source LANs are the same, forward the frame.2.If the destination and source LANs are different, discard the frame.3.If the destination LAN is unknown, use flooding.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The network layer transfers packets from their source to their destination. ",
+      "question":"The network layer transfers packets from their source to their destination.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"An IP packet cannot contain TCP header bytes in its data field ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The IPv4 packet header identifies TCP connections. ",
+      "question":"The IPv4 packet header identifies TCP connections.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Before a router can forward a packet on an Ethernet, it must have issued a broadcast message. ",
+      "question":"Before a router can forward a packet on an Ethernet, it must have issued a broadcast message.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"There is no functionality in IP packets for error correction. ",
+      "question":"There is no functionality in IP packets for error correction.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"Network services are independent of underlying network technologies ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"The transport layer must know the number of, the type, or the topology of underlying subnetworks. ",
+      "question":"The transport layer must know the number of, the type, or the topology of underlying subnetworks.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A network address is global and uniform across different LANs and WANs. ",
+      "question":"A network address is global and uniform across different LANs and WANs.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Fragmentation and reassembly are done in underlying networks. ",
+      "question":"Fragmentation and reassembly are done in underlying networks.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Routing establishes state information to be used on connection set-up. ",
+      "question":"Routing establishes state information to be used on connection set-up.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When forwarding packets, a router updates the TTL (time to live) field. ",
+      "question":"When forwarding packets, a router updates the TTL (time to live) field.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"A router will always forward all packets with identical destination address on the same output port. ",
+      "question":"A router will always forward all packets with identical destination address on the same output port.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When forwarding packets, a router updates the IP address with the address of the next-hop router. ",
+      "question":"When forwarding packets, a router updates the IP address with the address of the next-hop router.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Flow control is a mechanism that the receiver can use to limit the information flow from the sender. ",
+      "question":"Flow control is a mechanism that the receiver can use to limit the information flow from the sender.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Sliding window flow control is a mechanism that gives the sender freedom to send a number of packets before waiting for acknowledgments. ",
+      "question":"Sliding window flow control is a mechanism that gives the sender freedom to send a number of packets before waiting for acknowledgements.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Increasing the window size will always give an increased round-trip time. ",
+      "question":"Increasing the window size will always give an increased round-trip time.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"For a slow channel (C is low), increasing the window will always increase the error probability. ",
+      "question":"For a slow channel (C is low), increasing the window will always increase the error probability.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The TCP Credit TPDU is used at connection setup to set the maximum window for the whole duration of the connection. ",
+      "question":"The TCP Credit TPDU is used at connection setup to set the maximum window for the whole duration of the connection.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Selective repeat needs less buffering capacity at the receiver than Go-back-N. ",
+      "question":"Selective repeat needs less buffering capacity at the receiver than Go-back-N.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Assume that the sequence number space is 32 bits. The maximum window for Go-back-N is larger than the maximum window for Selective repeat ",
+      "question":"Assume that the sequence number space is 32 bits.The maximum window for Go-back-N is larger than the maximum window for Selective repeat ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"For the use of TCP over a noisy geostationary satellite channel, Selective-repeat is never preferable to Go-back-N. ",
+      "question":"For the use of TCP over a noisy geostationary satellite channel, Selective-repeat is never preferable to Go-back-N.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"Packet switching is usually more efficient in using link capacity then circuit switching ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The performance of the best-effort internet service is independent of the physical links ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"There are seven layers in the Protocol Stack ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"Protocols define actions taken om messege receipt/transmission ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The networking layer delivers a best-effort service ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"You HAVE to use a web browser to fetch an object from a web server ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"All Internet Applications are distributed services ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"All Internet application protocols are text based ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"The SMTP command MAIL FROM and the message header line FROM are always the same. ",
+      "question":"The SMTP command MAIL FROM and the message header line FROM are always the same.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"HTTP runs on top of TCP ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Two distinct HTTP requests can be transferred across a persistent TCP connection. ",
+      "question":"Two distinct HTTP requests can be transferred across a persistent TCP connection.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The DNS root servers need to know all the mappings from hostnames to IP ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A machine with a single dns name can have several IP adresses. ",
+      "question":"A machine with a single dns name can have several IP adresses.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Client - server communication: with UDP, server needs one socket, TCP requires two. ",
+      "question":"Client - server communication: with UDP, server needs one socket, TCP requires two.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"Distributed hash tables are overlay networks not matching the underlying physical network. ",
+      "question":"Distributed hash tables are overlay networks not matching the underlying physical network.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"In DHT there is a trade off between amount of neighbours and amount of messages to resolve a query. ",
+      "question":"In DHT there is a trade off between amount of neighbours and amount of messages to resolve a query.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The total nodal delay is given by the sum of transmission delay and propagation delay ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"All distributed applications must use either TCP or UDP ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"Email does not use DNS. ",
+      "question":"Email does not use DNS.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"For a P2P file sharing application, there is no notion of client and server sides. ",
+      "question":"For a P2P file sharing application, there is no notion of client and server sides.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
-      "question":"No data loss is tolerated in multimedia applications. ",
+      "question":"No data loss is tolerated in multimedia applications.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"In Bittorrent, if Alice provides chunks to Bob, then Bob will nescessarily provide chunks to Alice. ",
+      "question":"In Bittorrent, if Alice provides chunks to Bob, then Bob will nescessarily provide chunks to Alice.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When Host A sends data to Host B; the acknowledgement number that B puts in its ACK-segment is the number of the last byte B got from A. ",
+      "question":"When Host A sends data to Host B; the acknowledgement number that B puts in its ACK-segment is the number of the last byte B got from A.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"A still sends data to B: A piggybacked ACK is a data segment containing the same data originally sent to B, but with ACK-bit set to 1. ",
+      "question":"A still sends data to B: A piggybacked ACK is a data segment containing the same data originally sent to B, but with ACK-bit set to 1.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"The link layer moves one datagram from one node to an adjacent node ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"FEC can decrease the number of sender retransmissions required ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     },
     {
       "question":"Two Dimensional parity checks can detect 2 bit and correct errors ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"Dividing (mod 2) the binary value 10011100 by 1011 gives a remainder of 100 ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"A random access protocol is a channel partitioning protocol ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"All link layer partitioning cp is either TDM of FDM ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"CRC detects all errors ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
       "question":"In CRC the generator polynominals used by the sender and the reciver need not be the same ",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"0 "
+      "answer":0
     },
     {
-      "question":"When CSMA/CD nodes detect collision, they stop transmitting data bits. ",
+      "question":"When CSMA/CD nodes detect collision, they stop transmitting data bits.",
       "alternatives":[
-        "False ",
-        "True "
+        "False",
+        "True"
       ],
-      "answer":"1 "
+      "answer":1
     }
   ]
 }
