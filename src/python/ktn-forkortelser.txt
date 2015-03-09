@@ -1,4 +1,4 @@
-KTN - Hva står forkortelsene for?
+KTN - Hva staar forkortelsene for-
 Q: MTU
 0: Mean Transformation Unit
 1: Maximum Transformation Unit

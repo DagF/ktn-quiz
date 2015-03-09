@@ -1,4 +1,4 @@
-KTN - True or false?
+KTN - True or false
 Q: A client program requests and receives services from a server program.
 0: False
 1: True
@@ -1256,6 +1256,26 @@ Q: In CRC the generator polynominals used by the sender and the reciver need not
 1: True
 A: 0
 Q: When CSMA/CD nodes detect collision, they stop transmitting data bits.
+0: False
+1: True
+A: 1
+Q: Consider the picture forwarding.png; Interface 0 has the largest address space
+0: False
+1: True
+A: 0
+Q: Consider the picture forwarding.png; All addresses that maps to interface 1 only has 1 in the third byte and starts with 192.168 for the two first bytes.
+0: False
+1: True
+A: 1
+Q: Consider the picture forwarding.png; All addresses that maps to interface 3 has a number between 168 and 175 in the second byte 
+0: False
+1: True
+A: 0
+Q: Consider the picture forwarding.png; All addresses that maps to interface 0 only has 0 in the third byte.
+0: False
+1: True
+A: 0
+Q: Consider the picture forwarding.png; Every address byte not equal to 192 in the first byte maps to interface 4
 0: False
 1: True
 A: 1
