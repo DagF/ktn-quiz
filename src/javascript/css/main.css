@@ -1,0 +1,14 @@
+#question{
+    height: 200px;
+    overflow-y: auto;
+    font-size: 1em;
+}
+
+#answer_0[correct],#answer_1[correct],#answer_2[correct],#answer_3[correct]{
+     background-color: chartreuse;
+}
+
+#answer_0[selected],#answer_1[selected],#answer_2[selected],#answer_3[selected]{
+    border:5px solid black;
+}
+
