@@ -1,4 +1,4 @@
-KTN - True or false
+ktn-true-false
 Q: A client program requests and receives services from a server program.
 0: False
 1: True
@@ -95,10 +95,6 @@ Q: In Go-back-N, the sender is allowed to transmit multiple packets (when availa
 0: False
 1: True
 A: 1
-Q: Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 100; the second has sequence number 200. Then, there are 200 bytes in the first segment.
-0: False
-1: True
-A: 0
 Q: A transport-layer protocol can provide reliable data transfer only when the underlying network layer also provides reliable service.
 0: False
 1: True
@@ -127,7 +123,7 @@ Q: Routers typically only look at the network part and not the host part of the 
 0: False
 1: True
 A: 1
-Q: A subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts.
+Q: A Class C IP subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts.
 0: False
 1: True
 A: 0
@@ -155,10 +151,6 @@ Q: A datagram is a packet that is transferred independently of other packets.
 0: False
 1: True
 A: 1
-Q: The maximum efficiency of slotted ALOHA is lower than the maximum efficiency of pure ALOHA.
-0: False
-1: True
-A: 0
 Q: For the Internet, it is the job of the Address Resolution Protocol (ARP) to translate between IP addresses and MAC addresses.
 0: False
 1: True
@@ -207,11 +199,7 @@ Q: The application-layer message and the transport-layer header information toge
 0: False
 1: True
 A: 1
-Q: The total nodal delay is given by the sum of the processing delay, transmission delay and propagation delay.
-0: False
-1: True
-A: 0
-Q: Store-and-forward transmission means that the switch must receive the entire packet before it can begin to transmit the first bit of the packet onto the outbound link.
+Q: The total nodal delay is given by the sum of the processing delay (node processing), transmission delay, queing delay and propagation delay.
 0: False
 1: True
 A: 1
@@ -259,10 +247,6 @@ Q: A host can have more than one DNS name.
 0: False
 1: True
 A: 1
-Q: In a POP3 transaction, the user agent issues commands, and the server responds to each command with a reply.
-0: False
-1: True
-A: 1
 Q: SMTP is used to transfer mail from the sender’s mail server to the recipient’s mail server, and it is also used to transfer mail from the sender’s user agent to the sender’s mail server.
 0: False
 1: True
@@ -272,10 +256,6 @@ Q: A transport-layer protocol can provide reliable data transfer even if the und
 1: True
 A: 1
 Q: Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 100; the second has sequence number 200. Then, there are 100 bytes in the first segment.
-0: False
-1: True
-A: 1
-Q: In Go-back-N, the sender is allowed to transmit multiple packets (when available) without waiting for an acknowledgement from the receiver.
 0: False
 1: True
 A: 1
@@ -323,10 +303,6 @@ Q: The IP address 192.168.10.103 in binary notation is 11000000 10100000 0000101
 0: False
 1: True
 A: 0
-Q: A Class C IP subnet, which has a CIDR address of the form a.b.c.d/24, can accommodate about 500 hosts.
-0: False
-1: True
-A: 0
 Q: Virtual circuit is connection-oriented.
 0: False
 1: True
@@ -367,7 +343,7 @@ Q: Switched Ethernet uses mulitcast link.
 0: False
 1: True
 A: 0
-Q: The maximum efficiency of slotted ALOHA is higher than the maximum efficiency of pure ALOHA
+Q: The maximum theoretical throughput of slotted ALOHA is higher than that of pure ALOHA
 0: False
 1: True
 A: 1
@@ -383,10 +359,6 @@ Q: ARP (address resolution protocol) maps between IP and MAC addresses on differ
 0: False
 1: True
 A: 0
-Q: With CSMA/CD, when a collision is detected, the transmitting node stops its transmission and uses some protocol to determine when it should attempt to transmit the next time.
-0: False
-1: True
-A: 1
 Q: In a CDMA protocol, each bit being sent is encoded by multiplying the bit by a signal (the code) that changes at a much faster rate than the original sequence of data bits.
 0: False
 1: True
@@ -491,10 +463,6 @@ Q: TCP provides a reliable, simplex service to the application layer.
 0: False
 1: True
 A: 0
-Q: For every write() to a TCP streamsocket, there must be a corresponding read() at the other end to receive the data.
-0: False
-1: True
-A: 0
 Q: The maximum data rate between two hosts communicating using TCP depends solely on the bandwidth of the underlying internetwork.
 0: False
 1: True
@@ -547,10 +515,6 @@ Q: The host component of a CIDR address of the form a.b.c.d/23 can contain addre
 0: False
 1: True
 A: 1
-Q: Network address translation (NAT) is used in the Internet to translate between IP addresses found in separate sub-networks.
-0: False
-1: True
-A: 0
 Q: A node’s LAN address used by the link layer is simply another form of the node’s IP address.
 0: False
 1: True
@@ -731,10 +695,6 @@ Q: Hubs use the frame destination address to route frames to their destination.
 0: False
 1: True
 A: 0
-Q: The slotted ALOHA protocol is more efficient than the pure ALOHA.
-0: False
-1: True
-A: 1
 Q: Ethernet provides connectionless service to the network layer.
 0: False
 1: True
@@ -771,10 +731,6 @@ Q: If stored video is streamed directly from a Web server to a media player, the
 0: False
 1: True
 A: 1
-Q: FTP runs on top of UDP.
-0: False
-1: True
-A: 0
 Q: RTSP (Real-Time Streaming Protocol) does not restrict how streamed media is transported.
 0: False
 1: True
@@ -887,10 +843,6 @@ Q: The network layer can only be connectionless.
 0: False
 1: True
 A: 0
-Q: The forwarding process of a router is responsible for transferring a packet from an incoming link to an outgoing link.
-0: False
-1: True
-A: 1
 Q: While forwarding is within a single router, routing involves all routers in a network
 0: False
 1: True
@@ -899,10 +851,6 @@ Q: A virtual circuit is more robust concerning network errors because it knows t
 0: False
 1: True
 A: 0
-Q: In the Internet, a node may receive multiple copies of the same packet.
-0: False
-1: True
-A: 1
 Q: Each router only has one IP address.
 0: False
 1: True
@@ -931,10 +879,6 @@ Q: If a node has a wireless connection to the Internet, it has to be mobile.
 0: False
 1: True
 A: 0
-Q: A signal coming out of a low-pass filter of bandwidth H can be completely reconstructed by sampling at the rate of 2H. (aka the Nyquist-effect)
-0: False
-1: True
-A: 1
 Q: Frequency modulation, amplitude modulation and phase modulation can be used together.
 0: False
 1: True
@@ -943,10 +887,6 @@ Q: There is no limit on the maximum data rate that can be achieved by an ideal c
 0: False
 1: True
 A: 1
-Q: Consider the maximum data rate that can be achieved by a noisy channel. The rate calculated from the Shannon theorem is always smaller than the rate calculated from the Nyquist theorem.
-0: False
-1: True
-A: 0
 Q: A binary signal with period T cannot be represented by a Fourier series with limited frequency elements.
 0: False
 1: True
@@ -995,7 +935,7 @@ Q: The concept ‘carrier sense’ of CSMA/CD can normally be interpreted as the
 0: False
 1: True
 A: 1
-Q: The maximum theoretical throughput of Pure ALOHA is larger than maximum throughput of Slotted ALOHA.
+Q: The maximum theoretical throughput of Pure ALOHA is larger than that of Slotted ALOHA.
 0: False
 1: True
 A: 0
@@ -1155,10 +1095,6 @@ Q: All Internet Applications are distributed services
 0: False
 1: True
 A: 1
-Q: All Internet application protocols are text based
-0: False
-1: True
-A: 0
 Q: The SMTP command MAIL FROM and the message header line FROM are always the same.
 0: False
 1: True
@@ -1199,14 +1135,6 @@ Q: All distributed applications must use either TCP or UDP
 0: False
 1: True
 A: 0
-Q: Email does not use DNS.
-0: False
-1: True
-A: 0
-Q: For a P2P file sharing application, there is no notion of client and server sides.
-0: False
-1: True
-A: 1
 Q: No data loss is tolerated in multimedia applications.
 0: False
 1: True
@@ -1227,10 +1155,6 @@ Q: The link layer moves one datagram from one node to an adjacent node
 0: False
 1: True
 A: 1
-Q: FEC can decrease the number of sender retransmissions required
-0: False
-1: True
-A: 1
 Q: Two Dimensional parity checks can detect 2 bit and correct errors
 0: False
 1: True
@@ -1240,10 +1164,6 @@ Q: Dividing (mod 2) the binary value 10011100 by 1011 gives a remainder of 100
 1: True
 A: 0
 Q: A random access protocol is a channel partitioning protocol
-0: False
-1: True
-A: 0
-Q: All link layer partitioning cp is either TDM of FDM
 0: False
 1: True
 A: 0
@@ -1263,15 +1183,15 @@ Q: Consider the picture forwarding.png; Interface 0 has the largest address spac
 0: False
 1: True
 A: 0
-Q: Consider the picture forwarding.png; All addresses that maps to interface 1 only has 1 in the third byte and starts with 192.168 for the two first bytes.
+Q: Consider the picture forwarding.png; All addresses that maps to interface 1 only has 1 as the third byte and starts with 192.168 for the two first bytes.
 0: False
 1: True
 A: 1
-Q: Consider the picture forwarding.png; All addresses that maps to interface 3 has a number between 168 and 175 in the second byte 
+Q: Consider the picture forwarding.png; All addresses that maps to interface 3 has a number between 168 and 175 as the second byte 
 0: False
 1: True
 A: 0
-Q: Consider the picture forwarding.png; All addresses that maps to interface 0 only has 0 in the third byte.
+Q: Consider the picture forwarding.png; All addresses that maps to interface 0 only has 0 as the third byte.
 0: False
 1: True
 A: 0

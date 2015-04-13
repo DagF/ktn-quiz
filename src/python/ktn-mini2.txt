@@ -1,0 +1,177 @@
+TTM4100-ktnMini2
+Q: Suppose Host A sends two TCP segments back to back to Host B over a TCP connection. The first segment has sequence number 100; the second has sequence number 200. Then, there are 200 bytes in the first segment.
+0: False
+1: True
+A: 0
+Q: All link layer partitioning channel protocols is either TDM of FDM
+0: False
+1: True
+A: 0
+Q: Consider the maximum data rate that can be achieved by a noisy channel. The rate calculated from the Shannon theorem is always smaller than the rate calculated from the Nyquist theorem.
+0: False
+1: True
+A: 0
+Q: A signal coming out of a low-pass filter of bandwidth H can be completely reconstructed by sampling at the rate of 2H. (aka the Nyquist-effect)
+0: False
+1: True
+A: 1
+Q: Each Lan Network Card interface has uniqe mac adress
+0: False
+1: True
+A: 1
+Q: Like IP adresses, MAC - adresses also are hierarchical
+0: False
+1: True
+A: 0
+Q: Bridges use IP - adresses to route frames to their destinations.
+0: False
+1: True
+A: 0
+Q: A nodes lan adress used by the link layer is simply another form of the node's ip adress
+0: False
+1: True
+A: 0
+Q: ARP (adress resolution protocol) maps between IP and MAC adresses across subnets
+0: False
+1: True
+A: 0
+Q: Routers do only use IP adresses when transmitting a datagram.
+0: False
+1: True
+A: 0
+Q: Ethernet provides a connectionless unreliable service to the network layer
+0: False
+1: True
+A: 1
+Q: The entries in a switch table do not need be configured by network admin
+0: False
+1: True
+A: 1
+Q: In a switchbased ethernet lan there is no collision domain
+0: False
+1: True
+A: 1
+Q: When CSMA/CD nodes detect collision, they immediately stop transmitting
+0: False
+1: True
+A: 0
+Q: The link layer moves one datagram from one node to an adjacent node
+0: False
+1: True
+A: 1
+Q: FEC can decrease the number of sender retransmissions required
+0: False
+1: True
+A: 1
+Q: Two Dimensional parity checks can detect 2 bit and correct errors
+0: False
+1: True
+A: 0
+Q: Dividing (mod 2) the binary value 10011100 by 1011 gives a remainder of 100
+0: False
+1: True
+A: 0
+Q: A random access protocol is a channel partitioning protocol
+0: False
+1: True
+A: 0
+Q: All link layer partitioning cp is either TDM of FDM
+0: False
+1: True
+A: 0
+Q: The max frequency of slotted ALOHA is lower then that of the pure ALOHA
+0: False
+1: True
+A: 0
+Q: CRC detects all errors
+0: False
+1: True
+A: 0
+Q: In CRC the genertor polynominals used by the sender and the reciver need not be the same
+0: False
+1: True
+A: 0
+Q: When CSMA/CD nodes detect collision, they stop transmitting data bits.
+0: False
+1: True
+A: 1
+Q: The host component of an IP-adress of form a.b.c.d/23 can contain addresses for ca. 500 hosts. #Slashdelen,subnettmasken angir hvor stor del av adressen som tilhører nettverkslaget. Dynamic Host Configuration Protocol gir deg automatisk en dynamisk adresse. Gateway, gw er første hopp. DNS - adresse; navn til ip-adresse. IP -> Linkadresse (fysisk adresse og MAC - adresse)
+0: False
+1: True 
+A: 1
+Q: NAT has helped with postponing the running out of IPv4 - adresses #Ipv4 hor holdt ut på grunn av oversetting mellom private og offentlige nettverkadresser.
+0: False
+1: True
+A: 1
+Q: The IPv6 adress space is larger then that of IPv4. #v6: 128 bit, v4: 32 bit.
+0: False
+1: True
+A: 1
+Q: Adaptive routing adapts to topology changes of the network. #Hvordan kan topologien forandre seg: noder kan dette ut, vi bør oppdatere hvilke endringer som skjer i nettverksgrafen.
+0: False 
+1: True
+A: 1
+Q: When forwarding packets a router one needs to have an overview over all nodes #Vi har for eksempel DV. Skaleringsproblemer
+0: False
+1: True
+A: 0
+Q: Routing algorithms the shortest path always has the least number of hops. #Avhenger av hva for slags verdi vi setter som kostnad som lenker. Likt hvis linkkostnad er lik på alle
+0: False
+1: True
+A: 0
+Q: If B is on an optimal path from A to C the optimal path from B to C goes along this path
+0: False
+1: True
+A: 1
+Q: In a DV algorithm each node has a map over the entire network
+0: False
+1: True
+A: 0
+Q: Scalability and adm. autonony are two reasons for organizing Internet as a hierarchy of nets.
+0: False
+1: True
+A: 1
+Q: Traceroute is a program running in every network node #Bruker ICMP for å fremprovosere feilmelding ved å tukle med timeToLive-feltet i datagrammer. For hvert hopp er vi på en ny node.
+0: False 
+1: True 
+A: 0
+Q: Transportlageret er ende - til - ende
+0: False
+1. True
+A: 1
+Q: Transportlageret kjører alltid sammen med nettverkslageret (Når transportlageret kjøres, så er nettverk med)
+0: False
+1. True
+A: 1
+Q: Kompleksiten til en pålitelig transportprotokoll avhenger kun av applikasjonenes krav
+0: False
+1. True
+A: 0
+Q: Destinasjonsportnummer i transportprotokollen benyttes for å identifisere vertsmaskin/endesystem/host (ikke portnr.)
+0: False
+1. True
+A: 0
+Q: Mottaker detekterer bitfeil ved å bruke informasjon fra sender (senderen sender over en checksum)
+0: False
+1. True
+A: 1
+Q: Vindustørrelsen begrenser hvor mye data som kan være i pipeline mellom sender og mottaker (tilstandsvariabel som sier noe om hvor mye data som utelates)
+0: False
+1. True
+A: 1
+Q: I en stop-and-wait protokoll er vindusstørrelsen to (N = 1. Sender venter på kvittering før den sender ny pakker)
+0: False
+1. True
+A: 0
+Q: Mottaker kan motta data med høyere sekvensnummer enn forventet (Pakker kan bli tapt i sendingen)
+0: False
+1. True
+A: 1
+Q: Sender tilpasser retransmission av data avhengig av om data eller kvittering (ACK) hargått tapt (Vi vet ikke om pakken går tapt eller kvitteringen går tapt på vei hjem)
+0: False
+1. True
+A: 0
+Q: GBN (Go-Back-N) benyttes av mottaker for å få fatt i manglende data (selective repeat gjør dette)
+0: False
+1. True
+A: 0
