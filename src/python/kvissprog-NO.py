@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# ver. 0.2.3
+# ver. 0.2.4
 import datetime as d
 
 def inputhandtering():
@@ -7,7 +7,7 @@ def inputhandtering():
     termliste = open(filnavn, 'r')
     #Handterer termliste:
     tema = termliste.readline()
-    #termliste.readline()
+    tema = tema.rstrip()
     qu = {}
     for line in termliste:
         line = line.rstrip()
@@ -15,21 +15,26 @@ def inputhandtering():
             spors = line[3:]
             qu.update({spors:[]})
         elif line[0:3] == 'A: ':
-            qu[spors].append(line[3])
+            qu[spors].append(line[3:])
         else:
-            qu[spors].append(line)
+            qu[spors].append(line[3:])
     termliste.close()
     print(tema)
+    for k, v in qu.items():
+        print(k)
+        for i in range(len(v)):
+            print(v[i])        
     return (qu, tema)
 
 def quiz(qu):
     score = 0
     #score: holder rede på hvor mange riktige svar du har
-    #max_score = len(qu)
+    max_score = str( len( qu ) )
+    print( max_score )
     #max_score: Hvor mange korrekte svar du kan ha
     feil_svar = []
     #feil_svar er en liste med strenger
-    #Tidligere - for k, v in qu.items(): - Endret til while - løkke
+    #Tidligere - for k, v in qu.items(): - Endret til while - loekke
     while len(qu) > 0:
         k,v = qu.popitem() # Henter tilfeldig spørsmål og svaralternativer
         print(k)
@@ -38,7 +43,7 @@ def quiz(qu):
             print(v[i])
         #Du har riktig svar hvis input == v[-1]
         svar = input('Skriv inn ditt svar: ')
-        while not (svar.isdigit() or svar > sistalt:
+        while not (svar.isdigit() or svar > sistalt):
             print('Ugyldig svar.')
             svar = input('Skriv inn ditt svar: ')
         if svar == v[-1]:
@@ -49,7 +54,7 @@ def quiz(qu):
         print()
     print()
     print('Resultater.')    #Skal være med i utskriving til resultatfil
-    skorstring = 'Du klarte '+str(score)+' ut av '+ str(len(qu)) + ' poeng.' + '\n'
+    skorstring = 'Du klarte '+str(score)+' ut av '+ max_score + ' poeng.' + '\n'
     print(skorstring)
     feilsvar = 'Spørsmål du ikke svarte riktig på:' + '\n'
     if len(feil_svar) > 0:

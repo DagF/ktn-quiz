@@ -1,0 +1,121 @@
+TTM4100
+Q: When a data packet moves a layer down, a header is added.
+0: False
+1: True
+A: 1
+Q: Transport layer and network layer are always executed together
+0: False
+1: True
+A: 0
+Q: Packet switching is usually more efficient in using link capacity then circuit switching
+0: False
+1: True
+A: 1
+Q: The performance of the best-effort internet service is independent of the physical links
+0: False
+1: True
+A: 0
+Q: The total nodal delay is given by the sum of transmission delay and propagation delay
+0: False
+1: True
+A: 0
+Q: There are seven layers in the Protocol Stack
+0: False
+1: True
+A: 0
+Q: Protocols define actions taken om messege receipt/transmission
+0: False
+1: True
+A: 1
+Q: The networking layer delivers a best-effort service
+0: False
+1: True
+A: 1
+Q: You HAVE to use a web browser to fetchan object from a web server
+0: False
+1: True
+A: 0
+Q: All Internet Applications are distributed services
+0: False
+1: True
+A: 1
+Q: All Internet application protocols are text based
+0: False
+1: True
+A: 0
+Q: It is possible for a client to send e-mail over HTTP rather than SMTP
+0: False
+1: True
+A: 1
+Q: All distributed applications must use either TCP or UDP
+0: False
+1: True
+A: 0
+Q: A browser will generate header lines depending on browser type and version
+0: False
+1: True
+A: 1
+Q: The SMTP command MAIL FROM and the message header line FROM are always the same.
+0: False
+1: True
+A: 0
+Q: HTTP runs on top of TCP
+0: False
+1: True
+A: 1
+Q: Two distinct HTTP requests can be transferred across a persistent TCP connection.
+0: False
+1: True
+A: 1
+Q: FTP sends control information out - of - band
+0: False
+1: True
+A: 1
+Q: The DNS root servers need to know all the mappings from hostnames to IP
+0: False
+1: True
+A: 0
+Q: DNS uses a distributed database implemented in a hierarchy of DNS servers.
+0: False
+1: True
+A: 1
+Q: Email does not use DNS.
+0: False
+1: True
+A: 0
+Q: A machine with a single dns name can have several IP adresses.
+0: False
+1: True
+A: 1
+Q: Client - server communication: with UDP, server needs one socket, TCP requires two.
+0: False
+1: True
+A: 1
+Q: For a P2p file sharing application, there is no notion of client and server sides.
+0: False
+1: True
+A: 1
+Q: Distributed hash tables are overlay networks not matching the underlying physical network.
+0: False
+1: True
+A: 1
+Q: In DHT there is a trade off between amount of neighbours and amount of messages to resolve a query.
+0: False
+1: True
+A: 1
+Q: No data loss is tolerated in multimedia applications
+0: False
+1: True
+A: 0
+Q: In Bittorrent, if Alice provides chunks to Bob, then Bob will nescessarily provide chunks to Alice.
+0: False
+1: True
+A: 0
+Q: When Host A sends data to Host B; the acknowledgement number that B puts in its ACK-segment is the number of the last byte B got from A.
+0: False
+1: True
+A: 0
+Q: A still sends data to B: A piggybacked ACK is a data segment containing the same data originally sent to B, but with ACK-bit set to 1. 
+0: False
+1: True
+A: 1

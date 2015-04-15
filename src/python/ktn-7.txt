@@ -1,0 +1,60 @@
+TTM4100-7
+Q: Hva vil det å si at et nettverk har høy grad av "jitter"?
+0: Stor variasjon av tidsdifferanse mellom to utgående pakker
+1: Stor variasjon av tidsdifferanse mellom to innkommende pakker
+2: Stor variasjon av tiden det tar å videresende pakker
+A: 1
+Q: Tåler multimediastrømming høyt pakketap?
+0: Nei
+1: Ja
+A: 1
+Q: Tåler dataforsendelser høyt pakketap?
+0: Nei
+1: Ja
+A: 0
+Q: Under forsendelse av audio (VoIP), tålereres forsinkelser opptil 400 millisekunder?
+0: Nei
+1: Ja
+A: 1
+Q: Hva er forskjellen mellom hard og myk garanti?
+0: Graden av sannsynlighet for at applikasjonen mottar mange nok pakker i sekundet (QoS)
+1: Graden av sannsynlighet for at applikasjonen mottar god nok tjenestekvalitet (QoS)
+2: Graden av sannsynlighet for at applikasjonen mottar forespurt tjenestekvalitet (QoS)
+A: 2
+Q: Hvilket av følgende retningslinjer er ikke et prinsipp for å øke QoS?
+0: Nettverket bør prioritere visse typer pakker foran andre.
+1: Nettverket sier ifra når trafikkflyten er for stor.
+2: Nettverket sier ifra når lydpakker har for høy bitrate.
+A: 2
+Q: VoIP kjøres helst over UDP.
+0: Usant
+1: Sant
+A: 1
+Q: Hvilket av alternativene er ikke et tiltak som kan utføres for å handtere jitter i et pakkesvitsjet nettverk der det sendes lyd?
+0: Forsinke mediaavspilling med en fast  og bufre data (fast avspillingsforsinkelse)
+1: Dele opp forsendelsen i spurter, estimerere forsinkelsen og tilpasse avspillingsforsinkelsen deretter (adaptiv avspillingsforsinkelse)
+2: Flere versjoner av forsendelsen lages med flere forskjellige kompresjonsrater, velger utifra metning i nettet. (metnings - og flytkontroll)
+A: 2
+Q: RTSP definerer signaler man kan sende for å interagere med avspilling av media (pause, spole tilbake, starte, avslutte)
+0: Usant
+1: Sant
+A: 1
+Q: Hva karakteriserer komprimering på "spatial redundancy" (redundans i rom)?
+0: Komprimering skjer på bilder som har lidd skade av pakketap. Bilderammer med for mye pakketap taes bort. 
+1: Komprimering skjer på bakgrunn av likhet mellom bilder, slik at to frames som er svært like 
+2: Komprimering innad i bilder. Piksler som har nærliggende lik farge slåes sammen.
+A: 2
+Q: RTP (Realtime Transport Protocol) er en applikasjonsprotokoll som transporterer lyd over UDP.
+0: Usant
+1: Sant
+A: 0
+Q: Hvorfor foretrekkes TCP framfor UDP som transportprotokoll for mediastrømming?
+0: Med TCP vil hele strømmefilen leveres helt og kan lagres i en lokal cache. 
+1: Brannmurer tenderer til å blokkere UDP - trafikk.
+2: Begge er riktige.
+A: 2
+Hva heter de klassene av multimedianettverksapplikasjoner?
+0: Streaming over HTTP, Streaming over RTP, VoIP
+1: Streaming av video, Streaming av audio, Sanntids interaktiv media
+2: Streaming av lagret media, Streaming av live - media, Sanntids interaktiv media
+A. 2
