@@ -1,11 +1,11 @@
 $(document).bind("mobileinit", function() {
-      //Set your global init settings here
-      //This is the setting you are looking for!      
-      $.mobile.defaultPageTransition = 'none';
+    //Set your global init settings here
+    //This is the setting you are looking for!
+    $.mobile.defaultPageTransition = 'none';
 
-      //I personally use some other settings, such as:
-      $.mobile.page.prototype.options.addBackBtn = true;
-      $.mobile.useFastClick  = false;
+    //I personally use some other settings, such as:
+    $.mobile.page.prototype.options.addBackBtn = true;
+    $.mobile.useFastClick  = false;
     $.fx.off = true;
 });
 
@@ -31,260 +31,127 @@ function supportsLocalStorage(){
     return typeof(Storage) != "undefined";
 }
 
-(function(){
-    QUIZ = function(){
 
-        //fields in view
-        var question_title = document.getElementById("question"),
-            buttons = [
-                document.getElementById("answer_0"),
-                document.getElementById("answer_1"),
-                document.getElementById("answer_2"),
-                document.getElementById("answer_3")
-            ],
-            next_question_button = document.getElementById("next_question_button"),
-            correct_answers_label = document.getElementById("correct_answers"),
-            wrong_answers_label = document.getElementById("wrong_answers"),
-            question_count = document.getElementById("question_count");
-
-
-        //prepare quiestion
-        var json = loadJSON("json/true_false_questions.json");
-        json = json["questions"];
-        var true_false_questions = [];
-        for( var i = 0; i < json.length; i++){
-            true_false_questions.push( Question( json[i] ));
-        }
+//fields in view
+var question_title = document.getElementById("question"),
+    buttons = [
+        document.getElementById("answer_0"),
+        document.getElementById("answer_1"),
+        document.getElementById("answer_2"),
+        document.getElementById("answer_3")
+    ],
+    next_question_button = document.getElementById("next_question_button"),
+    correct_answers_label = document.getElementById("correct_answers"),
+    wrong_answers_label = document.getElementById("wrong_answers"),
+    question_count = document.getElementById("question_count"),
+    quiz_result_table = document.getElementById("quiz_result_table_body");
 
 
+//prepare quiestion
+var json = loadJSON("json/true_false_questions.json");
+json = json["questions"];
+var true_false_questions = [];
+for( var i = 0; i < json.length; i++){
+    true_false_questions.push( Question( json[i] ));
+}
 
-        var current_quiz = null;
-        var settings = {
-            question_feedback : "true",
-            toggleQuestionFeedback : function(){
-                if( settings.question_feedback == "false") {
-                    settings.question_feedback = "true";
-                    next_question_button.style.display = "block";
-                    next_question_button.disabled = true;
-                    if( supportsLocalStorage() ){
-                        localStorage.setItem("question_feedback", "true");
-                    }
-                }
-                else{
-                    settings.question_feedback = "false";
-                    if( supportsLocalStorage() ){
-                        localStorage.setItem("question_feedback", "false");
-                    }
-                }
+
+
+var current_quiz = null;
+var settings = {
+    question_feedback : "true",
+    toggleQuestionFeedback : function(){
+        if( settings.question_feedback == "false") {
+            settings.question_feedback = "true";
+            next_question_button.style.display = "block";
+            next_question_button.disabled = true;
+            if( supportsLocalStorage() ){
+                localStorage.setItem("question_feedback", "true");
             }
-        };
-
-        //load settings
-        if( supportsLocalStorage() ){
-            settings.question_feedback = localStorage.getItem("question_feedback") || "true";
-            if( settings.question_feedback == "true" ) next_question_button.style.display = "block";
-        }
-        
-        //helper functions
-        function Quiz( questions ){
-            var current_question_index = -1,
-                wrong_answers = 0,
-                correct_answers = 0,
-                questions = questions;
-
-
-            function getNextQuestion(){
-                current_question_index++;
-                return questions[current_question_index];
-            }
-
-            function showNextQuestion(){
-                if( current_question_index < questions.length -1 ){
-                    var question = getNextQuestion();
-                    question_title.innerHTML = question.getText();
-                    if( settings.question_feedback == "true" ){
-                        next_question_button.style.display = "block";
-                        next_question_button.disabled = true;
-                    }
-                    else{
-                        next_question_button.style.display = "none";
-                    }
-                    for( var i = 0; i < buttons.length; i++){
-                        buttons[i].style.display = "none";
-                        buttons[i].disabled = false;
-                        buttons[i].removeAttribute("correct");
-                        buttons[i].removeAttribute("selected");
-                    }
-                    for( var i = 0; i < question.getAlternatives().length; i++){
-                        buttons[i].style.display = "block";
-                        buttons[i].innerHTML = question.getAlternatives()[i];
-                    }
-                }
-                else{
-                    showStatistics();
-                    $.mobile.changePage("#quiz-result");
-                }
-            }
-
-            function showQuestionFeedback(){
-                next_question_button.disabled = false;
-                for( var i = 0; i < buttons.length; i++){
-                    buttons[i].setAttribute("correct","false");
-                }
-                buttons[getCorrectAnswerIndex()].setAttribute("correct","true");
-            }
-
-            function getCorrectAnswers(){
-                return correct_answers;
-            }
-
-            function getWrongAnswers(){
-                return wrong_answers;
-            }
-
-            function checkAnswer( answer ){
-                if( questions[current_question_index].checkAnswer(answer)){
-                    correct_answers++;
-                }
-                else{
-                    wrong_answers++;
-                }
-                for( var i = 0; i < buttons.length; i++){
-                    buttons[i].disabled = true;
-                }
-                if( settings.question_feedback == "true"){
-                    showQuestionFeedback();
-                }
-                else{
-                    next_question_button.style.display = "none";
-                    next_question_button.disabled = false;
-                    showNextQuestion();
-                }
-            }
-
-            function getCorrectAnswer(){
-                return questions[current_question_index].getCorrectAnswer();
-            }
-
-            function getCorrectAnswerIndex(){
-                return questions[current_question_index].getCorrectAnswerIndex();
-            }
-
-            function showStatistics(){
-                correct_answers_label.innerHTML = "" + correct_answers;
-                wrong_answers_label.innerHTML = "" + wrong_answers;
-            }
-
-            return {
-                getNextQuestion:getNextQuestion,
-                showNextQuestion:showNextQuestion,
-                checkAnswer:checkAnswer,
-                getWrongAnswers:getWrongAnswers,
-                getCorrectAnswer:getCorrectAnswer,
-                getCorrectAnswerIndex:getCorrectAnswerIndex
-            };
-        }
-
-        function Question( json ){
-            var text = json["question"],
-                answer = json["answer"],
-                alternatives = json["alternatives"];
-
-
-
-            function getAlternatives(){
-                return alternatives;
-            }
-            function checkAnswer( a ){
-                return answer == a
-            }
-            function getCorrectAnswer(){
-                return alternatives[answer];
-            }
-            function getCorrectAnswerIndex(){
-                return answer;
-            }
-            function getText(){
-                return text;
-            }
-
-            return {
-                getAlternatives:getAlternatives,
-                checkAnswer:checkAnswer,
-                getCorrectAnswer:getCorrectAnswer,
-                getCorrectAnswerIndex:getCorrectAnswerIndex,
-                getText:getText
-            };
-        }
-
-        //methodes
-        function startQuestionQuiz(){
-            var number = question_count.value;
-            var questions = getRandomQuestions(number);
-            current_quiz = Quiz( questions );
-            current_quiz.showNextQuestion();
-            next_question_button.onclick  = current_quiz.showNextQuestion;
-
-            buttons[0].onclick = function(){
-                var target = window.event.target || window.event.srcElement;
-                target.setAttribute("selected", "selected");
-                current_quiz.checkAnswer(0)
-            };
-
-            buttons[1].onclick = function(e){
-                var target = window.event.target || window.event.srcElement;
-                target.setAttribute("selected", "selected");
-                current_quiz.checkAnswer(1)
-            };
-
-            buttons[2].onclick = function(e){
-                var target = window.event.target || window.event.srcElement;
-                target.setAttribute("selected", "selected");
-                current_quiz.checkAnswer(2)
-            };
-
-            buttons[3].onclick = function(e){
-                var target = window.event.target || window.event.srcElement;
-                target.setAttribute("selected", "selected");
-                current_quiz.checkAnswer(3)
-            };
-            $.mobile.changePage("#quiz");
-
-        }
-
-        function getRandomQuestions( number){
-            var questionIndices = [];
-            while (questionIndices.length < number){
-                var index = parseInt(Math.random() * true_false_questions.length);
-                if( questionIndices.indexOf( index ) == -1 ){
-                    questionIndices.push(index);
-                }
-            }
-            var questions = [];
-            for( var i = 0; i < questionIndices.length; i++){
-                questions.push( true_false_questions[questionIndices[i]]);
-            }
-            return questions;
-        }
-
-
-        //prepare settings switches
-        if( settings.question_feedback == "true" ){
-            document.getElementById("question_feedback").children[1].selected = true;
         }
         else{
-            document.getElementById("question_feedback").children[0].selected = true;
+            settings.question_feedback = "false";
+            if( supportsLocalStorage() ){
+                localStorage.setItem("question_feedback", "false");
+            }
         }
-        //button binding
-        document.getElementById("start_30_question_quiz").onclick = startQuestionQuiz;
-        document.getElementById("question_feedback").onchange = settings.toggleQuestionFeedback;
+    }
+};
+
+//load settings
+if( supportsLocalStorage() ){
+    settings.question_feedback = localStorage.getItem("question_feedback") || "true";
+    if( settings.question_feedback == "true" ) next_question_button.style.display = "block";
+}
+
+//helper functions
 
 
-        return {
 
-        };
-    }();
-})();
+
+//methodes
+function startQuestionQuiz(){
+    var number = question_count.value;
+    var questions = getRandomQuestions(number);
+    current_quiz = Quiz( questions );
+    current_quiz.showNextQuestion();
+    next_question_button.onclick  = current_quiz.showNextQuestion;
+
+    buttons[0].onclick = function(){
+        var target = window.event.target || window.event.srcElement;
+        target.setAttribute("selected", "selected");
+        current_quiz.answerQuestion(0)
+    };
+
+    buttons[1].onclick = function(e){
+        var target = window.event.target || window.event.srcElement;
+        target.setAttribute("selected", "selected");
+        current_quiz.answerQuestion(1)
+    };
+
+    buttons[2].onclick = function(e){
+        var target = window.event.target || window.event.srcElement;
+        target.setAttribute("selected", "selected");
+        current_quiz.answerQuestion(2)
+    };
+
+    buttons[3].onclick = function(e){
+        var target = window.event.target || window.event.srcElement;
+        target.setAttribute("selected", "selected");
+        current_quiz.answerQuestion(3)
+    };
+    $.mobile.changePage("#quiz");
+
+}
+
+function getRandomQuestions( number){
+    var questionIndices = [];
+    while (questionIndices.length < number){
+        var index = parseInt(Math.random() * true_false_questions.length);
+        if( questionIndices.indexOf( index ) == -1 ){
+            questionIndices.push(index);
+        }
+    }
+    var questions = [];
+    for( var i = 0; i < questionIndices.length; i++){
+        questions.push( true_false_questions[questionIndices[i]]);
+    }
+    return questions;
+}
+
+
+//prepare settings switches
+if( settings.question_feedback == "true" ){
+    document.getElementById("question_feedback").children[1].selected = true;
+}
+else{
+    document.getElementById("question_feedback").children[0].selected = true;
+}
+//button binding
+document.getElementById("start_30_question_quiz").onclick = startQuestionQuiz;
+document.getElementById("question_feedback").onchange = settings.toggleQuestionFeedback;
+
+
 
 if( window.location.hash == "#quiz" )  {
     $.mobile.navigate("#home");

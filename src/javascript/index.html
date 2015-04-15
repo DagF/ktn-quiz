@@ -118,8 +118,21 @@
     <div role="main" class="ui-content jqm-content">
 
         <h2>Result</h2>
-        Correct Answers: <span id="correct_answers"></span>
-        Wrong Answers: <span id="wrong_answers"></span>
+        <h3>Correct Answers: <span id="correct_answers"></span></h3>
+        <h3>Wrong Answers: <span id="wrong_answers"></span></h3>
+        <h3>Result:</h3>
+        <table id="quiz_result_table">
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Correct answer</th>
+                    <th>Your answer</th>
+                </tr>
+            </thead>
+            <tbody id="quiz_result_table_body">
+
+            </tbody>
+        </table>
 
 
 
@@ -186,6 +199,8 @@
 </div><!-- /page -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/question.js"></script>
+    <script src="js/quiz.js"></script>
     <script src="js/ktn_quiz.js"></script>
 </body>
 </html>

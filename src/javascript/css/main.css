@@ -4,6 +4,10 @@
     font-size: 1em;
 }
 
+#answer_0,#answer_1,#answer_2,#answer_3{
+    border:5px solid transparent;
+}
+
 #answer_0[correct="true"],#answer_1[correct="true"],#answer_2[correct="true"],#answer_3[correct="true"]{
      background-color: chartreuse;
 }
@@ -12,7 +16,40 @@
     background-color: #ff0802;
 }
 
+.correct{
+    color: chartreuse;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #000000 ;
+}
+
+.wrong{
+    color: #ff0802;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #000000 ;
+}
+
 #answer_0[selected],#answer_1[selected],#answer_2[selected],#answer_3[selected]{
     border:5px solid black;
+}
+
+#quiz_result_table{
+    border-collapse: collapse;
+}
+
+#quiz_result_table td{
+    padding: 5px;
+}
+
+#quiz_result_table tr td:nth-child(2){;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #000000 ;
+}
+
+
+#quiz_result_table tr:nth-child(even){
+    background-color: #ddd;
+}
+#quiz_result_table tr:nth-child(odd){
+
 }
 
