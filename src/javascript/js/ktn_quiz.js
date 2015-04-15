@@ -1,3 +1,14 @@
+$(document).bind("mobileinit", function() {
+      //Set your global init settings here
+      //This is the setting you are looking for!      
+      $.mobile.defaultPageTransition = 'none';
+
+      //I personally use some other settings, such as:
+      $.mobile.page.prototype.options.addBackBtn = true;
+      $.mobile.useFastClick  = false;
+    $.fx.off = true;
+});
+
 function loadJSON( url ){
     var json = null;
     $.ajax({
@@ -32,8 +43,10 @@ function supportsLocalStorage(){
                 document.getElementById("answer_3")
             ],
             next_question_button = document.getElementById("next_question_button"),
-            correct_answers_label =document.getElementById("correct_answers"),
-            wrong_answers_label = document.getElementById("wrong_answers");
+            correct_answers_label = document.getElementById("correct_answers"),
+            wrong_answers_label = document.getElementById("wrong_answers"),
+            question_count = document.getElementById("question_count");
+
 
         //prepare quiestion
         var json = loadJSON("json/true_false_questions.json");
@@ -47,20 +60,20 @@ function supportsLocalStorage(){
 
         var current_quiz = null;
         var settings = {
-            question_feedback : false,
+            question_feedback : "true",
             toggleQuestionFeedback : function(){
                 if( settings.question_feedback == "false") {
                     settings.question_feedback = "true";
                     next_question_button.style.display = "block";
                     next_question_button.disabled = true;
                     if( supportsLocalStorage() ){
-                        localStorage.setItem("question_feedback", true);
+                        localStorage.setItem("question_feedback", "true");
                     }
                 }
                 else{
                     settings.question_feedback = "false";
                     if( supportsLocalStorage() ){
-                        localStorage.setItem("question_feedback", false);
+                        localStorage.setItem("question_feedback", "false");
                     }
                 }
             }
@@ -68,11 +81,10 @@ function supportsLocalStorage(){
 
         //load settings
         if( supportsLocalStorage() ){
-            settings.question_feedback = localStorage.getItem("question_feedback");
-            if( settings.question_feedback ) next_question_button.style.display = "block";
+            settings.question_feedback = localStorage.getItem("question_feedback") || "true";
+            if( settings.question_feedback == "true" ) next_question_button.style.display = "block";
         }
-
-
+        
         //helper functions
         function Quiz( questions ){
             var current_question_index = -1,
@@ -105,7 +117,7 @@ function supportsLocalStorage(){
                     }
                     for( var i = 0; i < question.getAlternatives().length; i++){
                         buttons[i].style.display = "block";
-                        buttons[i].innerText = question.getAlternatives()[i];
+                        buttons[i].innerHTML = question.getAlternatives()[i];
                     }
                 }
                 else{
@@ -116,7 +128,10 @@ function supportsLocalStorage(){
 
             function showQuestionFeedback(){
                 next_question_button.disabled = false;
-                buttons[getCorrectAnswerIndex()].setAttribute("correct","correct-answer");
+                for( var i = 0; i < buttons.length; i++){
+                    buttons[i].setAttribute("correct","false");
+                }
+                buttons[getCorrectAnswerIndex()].setAttribute("correct","true");
             }
 
             function getCorrectAnswers(){
@@ -203,8 +218,9 @@ function supportsLocalStorage(){
         }
 
         //methodes
-        function start30QuestionQuiz(){
-            var questions = get30RandomQuestions();
+        function startQuestionQuiz(){
+            var number = question_count.value;
+            var questions = getRandomQuestions(number);
             current_quiz = Quiz( questions );
             current_quiz.showNextQuestion();
             next_question_button.onclick  = current_quiz.showNextQuestion;
@@ -236,9 +252,9 @@ function supportsLocalStorage(){
 
         }
 
-        function get30RandomQuestions(){
+        function getRandomQuestions( number){
             var questionIndices = [];
-            while (questionIndices.length < 30){
+            while (questionIndices.length < number){
                 var index = parseInt(Math.random() * true_false_questions.length);
                 if( questionIndices.indexOf( index ) == -1 ){
                     questionIndices.push(index);
@@ -260,7 +276,7 @@ function supportsLocalStorage(){
             document.getElementById("question_feedback").children[0].selected = true;
         }
         //button binding
-        document.getElementById("start_30_question_quiz").onclick = start30QuestionQuiz;
+        document.getElementById("start_30_question_quiz").onclick = startQuestionQuiz;
         document.getElementById("question_feedback").onchange = settings.toggleQuestionFeedback;
 
 

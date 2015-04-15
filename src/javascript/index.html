@@ -21,6 +21,8 @@
 
 
         <p>Using the left menu you are able to choose different quiz modes.</p>
+        <p>Using the right menu you are able to change quiz settings.</p>
+        <p>All questions in the quiz are taken from earlier KTN-exams</p>
 
 
         <!--<a href="../" data-rel="back" data-ajax="false" class="ui-btn ui-shadow ui-corner-all ui-mini ui-btn-inline ui-icon-carat-l ui-btn-icon-left ui-alt-icon ui-nodisc-icon">Back</a>
@@ -50,23 +52,24 @@
     <ul data-role="listview">
         <li data-icon="delete"><a href="#" data-rel="back">Close menu</a></li>
         <li><a href="#home">Home</a></li>
-        <li><a href="#quiz-30-questions">Quiz - 30 questions</a></li>
+        <li><a href="#quiz-true-false">True - False Questions</a></li>
        <!-- <li><a href="#quiz-all-questions">Quiz - All questions</a></li> -->
        <!-- <li><a href="#all-questions">All questions</a></li> -->
     </ul>
 
 </div><!-- /panel -->
 
-<div data-role="page" id="quiz-30-questions">
+<div data-role="page" id="quiz-true-false">
 
     <div data-role="header">
-        <h1>30 random questions</h1>
+        <h1>Random questions</h1>
         <a href="#nav-panel" data-icon="bars" data-iconpos="notext">Menu</a>
         <a href="#settings-panel" data-icon="gear" data-iconpos="notext">Settings</a>
     </div><!-- /header -->
 
     <div role="main" class="ui-content jqm-content">
-
+        <p>Using the right menu you are able to change quiz settings.</p>
+        <input id="question_count" type="number" value="30" min="1" max="300">
         <button id="start_30_question_quiz">Start quiz</button>
 
 
