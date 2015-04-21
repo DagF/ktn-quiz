@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <!--<link rel="stylesheet" media="(min-width: 800px)" href="css/screen.css" />-->
     <title></title>
 </head>
 <body>
@@ -88,6 +89,9 @@
     </div><!-- /header -->
 
     <div role="main" class="ui-content jqm-content">
+        <h1>Question <span id="quiz-current-question-index">1</span> of <span id="quiz-question-count">30</span></h1>
+        <h3>Correct answers: <span id="quiz-correct-answers">0</span></h3>
+        <h3>Wrong answers: <span id="quiz-wrong-answers">0</span></h3>
 
         <h2 id="question"></h2>
         <div>
@@ -116,7 +120,7 @@
     </div><!-- /header -->
 
     <div role="main" class="ui-content jqm-content">
-
+        <a class="ui-btn ui-btn-icon-left ui-icon-carat-l" href="#quiz-true-false">True - False Questions</a>
         <h2>Result</h2>
         <h3>Correct Answers: <span id="correct_answers"></span></h3>
         <h3>Wrong Answers: <span id="wrong_answers"></span></h3>
@@ -133,6 +137,7 @@
 
             </tbody>
         </table>
+        <a class="ui-btn ui-btn-icon-left ui-icon-carat-l" href="#quiz-true-false">True - False Questions</a>
 
 
 

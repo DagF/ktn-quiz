@@ -13,6 +13,14 @@ function Quiz( questions ){
     function showNextQuestion(){
         if( current_question_index < questions.length -1 ){
             var question = getNextQuestion();
+
+
+            quiz_current_question_index.innerHTML = current_question_index + 1;
+            quiz_question_count.innerHTML = questions.length;
+            quiz_correct_answers.innerHTML = correct_answers;
+            quiz_wrong_answers.innerHTML = wrong_answers;
+
+
             question_title.innerHTML = question.getText();
             if( settings.question_feedback == "true" ){
                 next_question_button.style.display = "block";
@@ -74,6 +82,9 @@ function Quiz( questions ){
             showNextQuestion();
         }
 
+        quiz_correct_answers.innerHTML = correct_answers;
+        quiz_wrong_answers.innerHTML = wrong_answers;
+
     }
 
 
@@ -88,9 +99,10 @@ function Quiz( questions ){
     function showStatistics(){
         correct_answers_label.innerHTML = "" + correct_answers;
         wrong_answers_label.innerHTML = "" + wrong_answers;
+        quiz_result_table.innerHTML = "";
         for( var q = 0; q < questions.length; q++){
-            var css_class = questions[q].isAnsweredCorrectly() ? "class=correct" :  "class=wrong";
-            quiz_result_table.innerHTML += "<tr><td>"+questions[q].getText()+"</td><td>"+questions[q].getCorrectAnswer()+"</td><td "+css_class+">"+questions[q].getUserAnswer()+"</td></tr>"
+            var css_class = questions[q].isAnsweredCorrectly() ? "class='user-answer correct'" :  "class='user-answer wrong'";
+            quiz_result_table.innerHTML += "<tr><td>"+questions[q].getText()+"</td><td><span class=correct-answer>"+questions[q].getCorrectAnswer()+"</span></td><td><span "+css_class+">"+questions[q].getUserAnswer()+"</span></td></tr>"
         }
     }
 

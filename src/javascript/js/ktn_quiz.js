@@ -44,7 +44,15 @@ var question_title = document.getElementById("question"),
     correct_answers_label = document.getElementById("correct_answers"),
     wrong_answers_label = document.getElementById("wrong_answers"),
     question_count = document.getElementById("question_count"),
-    quiz_result_table = document.getElementById("quiz_result_table_body");
+    quiz_result_table = document.getElementById("quiz_result_table_body"),
+    quiz_current_question_index = document.getElementById("quiz-current-question-index"),
+    quiz_question_count = document.getElementById("quiz-question-count"),
+    quiz_correct_answers = document.getElementById("quiz-correct-answers"),
+    quiz_wrong_answers = document.getElementById("quiz-wrong-answers");
+
+
+
+
 
 
 //prepare quiestion

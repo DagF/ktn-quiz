@@ -17,15 +17,13 @@
 }
 
 .correct{
-    color: chartreuse;
+    background-color: chartreuse;
     font-weight: bolder;
-    text-shadow: 1px 1px 2px #000000 ;
 }
 
 .wrong{
-    color: #ff0802;
+    background-color: #ff0802;
     font-weight: bolder;
-    text-shadow: 1px 1px 2px #000000 ;
 }
 
 #answer_0[selected],#answer_1[selected],#answer_2[selected],#answer_3[selected]{
@@ -34,6 +32,7 @@
 
 #quiz_result_table{
     border-collapse: collapse;
+    font-weight: bold;
 }
 
 #quiz_result_table td{
@@ -42,7 +41,6 @@
 
 #quiz_result_table tr td:nth-child(2){;
     font-weight: bolder;
-    text-shadow: 1px 1px 2px #000000 ;
 }
 
 
@@ -50,6 +48,16 @@
     background-color: #ddd;
 }
 #quiz_result_table tr:nth-child(odd){
+
+}
+
+.user-answer{
+    text-shadow: none;
+    padding: 2px;
+}
+
+.correct-answer{
+    text-shadow: none;
 
 }
 
