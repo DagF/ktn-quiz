@@ -6,6 +6,12 @@ function Question( json ){
         user_answer=null,
         answered=false;
 
+    function reset(){
+        answered_correct=null;
+        user_answer=null;
+        answered=false;
+    }
+
     function getAlternatives(){
         return alternatives;
     }
@@ -48,6 +54,7 @@ function Question( json ){
         getCorrectAnswerIndex:getCorrectAnswerIndex,
         getText:getText,
         getUserAnswer:getUserAnswer,
-        isAnsweredCorrectly:isAnsweredCorrectly
+        isAnsweredCorrectly:isAnsweredCorrectly,
+        reset:reset
     };
 }
