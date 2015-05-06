@@ -135,14 +135,14 @@ function startQuestionQuiz(){
 function getRandomQuestions( number){
     var questionIndices = [];
     while (questionIndices.length < number){
-        var index = parseInt(Math.random() * 10);
+        var index = parseInt(Math.random() * true_false_questions.length);
         if( questionIndices.indexOf( index ) == -1 ){
             questionIndices.push(index);
         }
     }
     var questions = [];
     for( var i = 0; i < questionIndices.length; i++){
-        true_false_questions[questionIndices[i]].reset()
+        true_false_questions[questionIndices[i]].reset();
         questions.push( true_false_questions[questionIndices[i]]);
     }
     return questions;
