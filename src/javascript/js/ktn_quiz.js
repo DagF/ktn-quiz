@@ -101,7 +101,7 @@ if( supportsLocalStorage() ){
 function startQuestionQuiz(){
     var number = question_count.value;
     var questions = getRandomQuestions(number);
-    current_quiz = Quiz( questions );
+    current_quiz = new Quiz( questions );
     current_quiz.showNextQuestion();
     next_question_button.onclick  = current_quiz.showNextQuestion;
 
@@ -135,13 +135,14 @@ function startQuestionQuiz(){
 function getRandomQuestions( number){
     var questionIndices = [];
     while (questionIndices.length < number){
-        var index = parseInt(Math.random() * true_false_questions.length);
+        var index = parseInt(Math.random() * 10);
         if( questionIndices.indexOf( index ) == -1 ){
             questionIndices.push(index);
         }
     }
     var questions = [];
     for( var i = 0; i < questionIndices.length; i++){
+        true_false_questions[questionIndices[i]].reset()
         questions.push( true_false_questions[questionIndices[i]]);
     }
     return questions;
